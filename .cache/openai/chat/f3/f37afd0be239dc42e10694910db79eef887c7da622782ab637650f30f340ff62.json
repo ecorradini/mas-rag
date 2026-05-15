@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 159, \"rationale\": \"The most recent demand forecast statement for warehouse Gamma is from chk_agent_00_t13_qq_14_1 and chk_agent_03_t13_qq_14_1, both stating 159 units.\", \"evidence_chunk_ids\": [\"chk_agent_00_t13_qq_14_1\", \"chk_agent_03_t13_qq_14_1\"]}", "p_toks": 420, "c_toks": 89, "dt": 1.9519612789154053}

@@ -1,0 +1,75 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rag-epidemic"
+version = "0.1.0"
+description = "Error Propagation in Multi-Agent RAG Networks: An Epidemic Model on Bipartite Graphs"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Enrico Corradini" }]
+dependencies = [
+    "openai>=1.40",
+    "tiktoken>=0.7",
+    "chromadb>=0.5",
+    "sentence-transformers>=2.7",
+    "rank-bm25>=0.2.2",
+    "numpy>=1.26",
+    "scipy>=1.13",
+    "pandas>=2.2",
+    "networkx>=3.2",
+    "matplotlib>=3.8",
+    "scikit-learn>=1.4",
+    "pyyaml>=6.0",
+    "tqdm>=4.66",
+    "python-dotenv>=1.0",
+    "tenacity>=8.2",
+    "datasets>=2.18",
+    "huggingface-hub>=0.23",
+    "rich>=13.7",
+    "pydantic>=2.6",
+    "jsonschema>=4.21",
+]
+
+[project.optional-dependencies]
+abliteration = [
+    "torch>=2.2",
+    "transformers>=4.43",
+    "accelerate>=0.30",
+    "safetensors>=0.4",
+]
+dev = [
+    "pytest>=8.0",
+    "pytest-cov>=5.0",
+    "ruff>=0.5",
+    "mypy>=1.10",
+]
+
+[project.scripts]
+rage-run = "rag_epidemic.cli.run_cli:main"
+rage-ode = "rag_epidemic.cli.ode_cli:main"
+rage-ablit = "rag_epidemic.cli.ablit_cli:main"
+rage-repro = "rag_epidemic.cli.reproduce_all:main"
+rage-data = "rag_epidemic.cli.download_data:main"
+rage-figs = "rag_epidemic.analysis.make_figures:main"
+rage-ablations = "rag_epidemic.cli.run_ablations:main"
+rage-attack = "rag_epidemic.cli.run_attack_intensity:main"
+rage-cross-domain = "rag_epidemic.cli.run_cross_domain:main"
+rage-mixed-encoder = "rag_epidemic.cli.run_mixed_encoder:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W", "B", "UP"]
+ignore = ["E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra -q"

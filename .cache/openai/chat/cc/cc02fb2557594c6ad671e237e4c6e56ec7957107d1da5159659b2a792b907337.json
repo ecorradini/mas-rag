@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"yes\", \"rationale\": \"Warehouse Alpha is currently within its physical capacity as the forecast demand of 185 units is less than the nominal capacity of 328 units.\", \"evidence_chunk_ids\": [\"chk_agent_01_t1_qq_2_1\"]}", "p_toks": 199, "c_toks": 59, "dt": 1.690352201461792}

@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 140, \"rationale\": \"The available capacity is stated as 140 units, despite the nominal capacity being 320 units and various forecast demands exceeding this available capacity.\", \"evidence_chunk_ids\": [\"chk_agent_05_t2_qq_3_2\"]}", "p_toks": 343, "c_toks": 59, "dt": 1.665841817855835}

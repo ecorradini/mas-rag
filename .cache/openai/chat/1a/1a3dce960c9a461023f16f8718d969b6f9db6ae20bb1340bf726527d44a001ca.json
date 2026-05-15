@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 1204, \"rationale\": \"Calculated available capacity as max(0, 1457 - 253).\", \"evidence_chunk_ids\": [\"chk_agent_02_t9_qq_10_2\", \"chk_agent_03_t1_qq_2_0\"]}", "p_toks": 384, "c_toks": 63, "dt": 2.2300710678100586}

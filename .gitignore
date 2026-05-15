@@ -1,0 +1,7 @@
+.env
+data
+results
+paper_out
+notebooks
+experiments
+.venv

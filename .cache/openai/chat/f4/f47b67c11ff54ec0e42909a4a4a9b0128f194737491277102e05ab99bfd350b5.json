@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 153, \"rationale\": \"The most recent demand_forecast statement for warehouse Alpha is from chunk chk_agent_00_t17_qq_18_0.\", \"evidence_chunk_ids\": [\"chk_agent_00_t17_qq_18_0\"]}", "p_toks": 408, "c_toks": 58, "dt": 1.4801490306854248}

@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"yes\", \"rationale\": \"The highest forecast demand reported for warehouse Delta is 230 units, which is below its nominal capacity of 432 units.\", \"evidence_chunk_ids\": [\"chk_evt_000068\", \"chk_evt_000101\", \"chk_evt_000085\", \"chk_evt_000036\"]}", "p_toks": 352, "c_toks": 70, "dt": 1.6993119716644287}

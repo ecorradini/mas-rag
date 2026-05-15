@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"Warehouse Delta has 0 units of capacity available due to forecast demand exceeding its nominal capacity of 432 units.\", \"evidence_chunk_ids\": [\"chk_agent_02_t41_qq_42_2\", \"chk_agent_02_t111_qq_112_2\", \"chk_agent_02_t49_qq_50_2\", \"chk_evt_000179\", \"chk_evt_000028\"]}", "p_toks": 385, "c_toks": 96, "dt": 2.2459259033203125}

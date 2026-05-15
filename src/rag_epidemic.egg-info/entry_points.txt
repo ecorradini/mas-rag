@@ -1,0 +1,11 @@
+[console_scripts]
+rage-ablations = rag_epidemic.cli.run_ablations:main
+rage-ablit = rag_epidemic.cli.ablit_cli:main
+rage-attack = rag_epidemic.cli.run_attack_intensity:main
+rage-cross-domain = rag_epidemic.cli.run_cross_domain:main
+rage-data = rag_epidemic.cli.download_data:main
+rage-figs = rag_epidemic.analysis.make_figures:main
+rage-mixed-encoder = rag_epidemic.cli.run_mixed_encoder:main
+rage-ode = rag_epidemic.cli.ode_cli:main
+rage-repro = rag_epidemic.cli.reproduce_all:main
+rage-run = rag_epidemic.cli.run_cli:main

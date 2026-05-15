@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 1092, \"rationale\": \"Available capacity is calculated as capacity (1356) minus occupancy (forecast demand of 264).\", \"evidence_chunk_ids\": [\"chk_agent_02_t3_qq_4_1\", \"chk_agent_05_t3_qq_4_1\", \"chk_agent_00_t17_qq_18_0\"]}", "p_toks": 360, "c_toks": 81, "dt": 2.1707441806793213}

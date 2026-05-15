@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"The maximum capacity is 430 units, and the total forecast demand is 224 + 184 + 184 + 184 + 188 = 1064 units, which exceeds the capacity.\", \"evidence_chunk_ids\": [\"chk_evt_000158\", \"chk_evt_000012\", \"chk_evt_000060\", \"chk_evt_000101\", \"chk_evt_000125\"]}", "p_toks": 340, "c_toks": 92, "dt": 2.960211992263794}

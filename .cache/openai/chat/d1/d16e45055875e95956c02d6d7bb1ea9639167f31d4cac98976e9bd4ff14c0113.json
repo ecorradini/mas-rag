@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"Total forecast demand exceeds nominal capacity, leading to negative available capacity.\", \"evidence_chunk_ids\": [\"chk_evt_000043\", \"chk_evt_000067\", \"chk_evt_000075\", \"chk_evt_000099\", \"chk_evt_000051\"]}", "p_toks": 340, "c_toks": 66, "dt": 1.2073018550872803}

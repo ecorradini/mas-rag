@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"yes\", \"rationale\": \"The highest reported forecast demand is 155 units, which is less than the nominal capacity of 328 units.\", \"evidence_chunk_ids\": [\"chk_evt_000132\", \"chk_evt_000050\", \"chk_evt_000033\"]}", "p_toks": 356, "c_toks": 61, "dt": 1.4713408946990967}

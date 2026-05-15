@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"no\", \"rationale\": \"The forecast demand of 287 units exceeds the nominal capacity of 515 units, indicating that warehouse Beta is within its physical capacity.\", \"evidence_chunk_ids\": [\"chk_evt_000156\"]}", "p_toks": 348, "c_toks": 51, "dt": 1.007023811340332}

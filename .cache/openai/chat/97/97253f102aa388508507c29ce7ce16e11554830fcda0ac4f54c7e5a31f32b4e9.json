@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"The capacity of warehouse Gamma is 100 units and the occupancy is 100 units, resulting in 0 available units.\", \"evidence_chunk_ids\": [\"chk_1\", \"chk_2\"]}", "p_toks": 131, "c_toks": 52, "dt": 1.932725191116333}

@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"yes\", \"rationale\": \"Warehouse Alpha has a nominal capacity of 328 units and the current forecast demand is 152 units, which is below the capacity.\", \"evidence_chunk_ids\": [\"chk_evt_000050\", \"chk_agent_04_t1_qq_2_1\"]}", "p_toks": 386, "c_toks": 65, "dt": 1.5897600650787354}

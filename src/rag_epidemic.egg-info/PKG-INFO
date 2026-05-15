@@ -1,0 +1,40 @@
+Metadata-Version: 2.4
+Name: rag-epidemic
+Version: 0.1.0
+Summary: Error Propagation in Multi-Agent RAG Networks: An Epidemic Model on Bipartite Graphs
+Author: Enrico Corradini
+License: MIT
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: openai>=1.40
+Requires-Dist: tiktoken>=0.7
+Requires-Dist: chromadb>=0.5
+Requires-Dist: sentence-transformers>=2.7
+Requires-Dist: rank-bm25>=0.2.2
+Requires-Dist: numpy>=1.26
+Requires-Dist: scipy>=1.13
+Requires-Dist: pandas>=2.2
+Requires-Dist: networkx>=3.2
+Requires-Dist: matplotlib>=3.8
+Requires-Dist: scikit-learn>=1.4
+Requires-Dist: pyyaml>=6.0
+Requires-Dist: tqdm>=4.66
+Requires-Dist: python-dotenv>=1.0
+Requires-Dist: tenacity>=8.2
+Requires-Dist: datasets>=2.18
+Requires-Dist: huggingface-hub>=0.23
+Requires-Dist: rich>=13.7
+Requires-Dist: pydantic>=2.6
+Requires-Dist: jsonschema>=4.21
+Provides-Extra: abliteration
+Requires-Dist: torch>=2.2; extra == "abliteration"
+Requires-Dist: transformers>=4.43; extra == "abliteration"
+Requires-Dist: accelerate>=0.30; extra == "abliteration"
+Requires-Dist: safetensors>=0.4; extra == "abliteration"
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0; extra == "dev"
+Requires-Dist: pytest-cov>=5.0; extra == "dev"
+Requires-Dist: ruff>=0.5; extra == "dev"
+Requires-Dist: mypy>=1.10; extra == "dev"
+
+# rag-epidemic experiments

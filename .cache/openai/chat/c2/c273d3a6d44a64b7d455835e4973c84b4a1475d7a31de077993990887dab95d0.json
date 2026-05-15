@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 1092, \"rationale\": \"Warehouse Beta has a capacity of 1356 units and a current forecast demand of 264 units, leading to an available capacity of 1092 units.\", \"evidence_chunk_ids\": [\"chk_agent_02_t3_qq_4_1\", \"chk_agent_05_t3_qq_4_1\", \"chk_agent_00_t17_qq_18_0\"]}", "p_toks": 360, "c_toks": 92, "dt": 1.5218298435211182}

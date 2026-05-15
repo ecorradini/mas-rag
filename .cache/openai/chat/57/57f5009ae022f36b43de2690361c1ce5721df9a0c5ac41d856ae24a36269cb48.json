@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"no\", \"rationale\": \"Warehouse Delta is exceeding its physical capacity with 0 units available.\", \"evidence_chunk_ids\": [\"chk_agent_01_t13_qq_14_1\", \"chk_agent_04_t13_qq_14_1\", \"chk_evt_000142\"]}", "p_toks": 278, "c_toks": 66, "dt": 1.9964089393615723}

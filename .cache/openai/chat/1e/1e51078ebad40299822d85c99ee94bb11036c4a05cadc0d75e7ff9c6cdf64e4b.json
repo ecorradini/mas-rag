@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"yes\", \"rationale\": \"The nominal capacity of warehouse Delta is 432 units, and the current forecast demand is 186 units, which is within the capacity.\", \"evidence_chunk_ids\": [\"chk_evt_000101\"]}", "p_toks": 356, "c_toks": 52, "dt": 1.3920929431915283}

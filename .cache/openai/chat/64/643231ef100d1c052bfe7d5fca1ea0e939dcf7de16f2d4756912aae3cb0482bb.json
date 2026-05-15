@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"no\", \"rationale\": \"Warehouse Beta's forecast demand exceeds its nominal capacity.\", \"evidence_chunk_ids\": [\"chk_agent_01_t15_qq_16_2\", \"chk_evt_000148\", \"chk_evt_000239\", \"chk_evt_000026\"]}", "p_toks": 360, "c_toks": 63, "dt": 1.525010108947754}

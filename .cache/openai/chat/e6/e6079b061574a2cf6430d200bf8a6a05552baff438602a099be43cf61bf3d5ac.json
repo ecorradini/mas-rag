@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"no\", \"rationale\": \"Warehouse Delta is currently over capacity with a forecast demand of 230 units exceeding its physical limits.\", \"evidence_chunk_ids\": [\"chk_agent_01_t13_qq_14_1\", \"chk_agent_04_t13_qq_14_1\"]}", "p_toks": 291, "c_toks": 65, "dt": 1.1809439659118652}

@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"yes\", \"rationale\": \"Warehouse Beta's forecast demand is below its nominal capacity of 515 units, indicating it is within its physical capacity.\", \"evidence_chunk_ids\": [\"chk_agent_01_t15_qq_16_2\", \"chk_agent_04_t15_qq_16_2\", \"chk_evt_000050\", \"chk_evt_000090\", \"chk_evt_000162\"]}", "p_toks": 376, "c_toks": 90, "dt": 1.905038833618164}

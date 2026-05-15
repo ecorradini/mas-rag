@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"There are inconsistencies in the reported and nominal capacity for Warehouse Beta, leading to a low confidence in the available capacity.\", \"evidence_chunk_ids\": [\"chk_agent_02_t9_qq_10_0\", \"chk_evt_000050\", \"chk_evt_000026\", \"chk_evt_000066\"]}", "p_toks": 356, "c_toks": 77, "dt": 1.9809458255767822}

@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"no\", \"rationale\": \"The latest forecast demand is 259 units, which exceeds the nominal capacity of 497 units.\", \"evidence_chunk_ids\": [\"chk_evt_000001\"]}", "p_toks": 386, "c_toks": 44, "dt": 1.0306322574615479}

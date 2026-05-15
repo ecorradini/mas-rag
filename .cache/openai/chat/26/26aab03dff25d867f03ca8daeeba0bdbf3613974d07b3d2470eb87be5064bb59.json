@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 242, \"rationale\": \"The available capacity is calculated as capacity minus occupancy, and the consistent reports indicate 242 units available after accounting for forecast demand.\", \"evidence_chunk_ids\": [\"chk_agent_02_t5_qq_6_2\", \"chk_agent_05_t5_qq_6_2\"]}", "p_toks": 351, "c_toks": 71, "dt": 1.6917970180511475}

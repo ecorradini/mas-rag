@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"no\", \"rationale\": \"The forecast demand exceeds the nominal capacity of Warehouse Gamma, indicating it is not within its physical capacity.\", \"evidence_chunk_ids\": [\"chk_evt_000003\", \"chk_agent_05_t1_qq_2_0\"]}", "p_toks": 359, "c_toks": 59, "dt": 1.3682482242584229}

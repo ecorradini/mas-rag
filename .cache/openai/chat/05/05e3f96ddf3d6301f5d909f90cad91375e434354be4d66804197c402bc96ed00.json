@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"The maximum capacity of Warehouse Gamma is 343 units, and the forecast demand is 168 units in one instance and 179 units in another, leading to a total demand of 347 units, which exceeds the capacity.\", \"evidence_chunk_ids\": [\"chk_evt_000011\", \"chk_evt_000003\"]}", "p_toks": 340, "c_toks": 76, "dt": 1.78759765625}

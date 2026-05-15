@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"yes\", \"rationale\": \"All retrieved context indicates that Warehouse Beta is within its physical capacity.\", \"evidence_chunk_ids\": [\"chk_agent_01_t166_qq_167_2\", \"chk_agent_01_t173_qq_174_0\", \"chk_agent_01_t140_qq_141_0\", \"chk_agent_01_t148_qq_149_2\", \"chk_agent_01_t151_qq_152_1\"]}", "p_toks": 394, "c_toks": 101, "dt": 3.1396219730377197}

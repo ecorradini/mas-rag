@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 246, \"rationale\": \"The available capacity of Warehouse Delta is confirmed by multiple sources and consistent across the retrieved context.\", \"evidence_chunk_ids\": [\"chk_agent_02_t16_qq_17_2\", \"chk_agent_02_t12_qq_13_1\", \"chk_agent_05_t12_qq_13_1\", \"chk_agent_05_t16_qq_17_2\"]}", "p_toks": 374, "c_toks": 92, "dt": 1.741506814956665}

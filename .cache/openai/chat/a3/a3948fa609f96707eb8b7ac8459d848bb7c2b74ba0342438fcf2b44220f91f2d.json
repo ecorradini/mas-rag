@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"no\", \"rationale\": \"Warehouse Delta has a reported capacity of 1000 units and current occupancy is 1200 units, exceeding its capacity.\", \"evidence_chunk_ids\": [\"chk_1\", \"chk_2\"]}", "p_toks": 139, "c_toks": 52, "dt": 1.176673173904419}

@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"no\", \"rationale\": \"The forecast demand is 156 units, which exceeds the current occupancy of 144 units, but is still within the nominal capacity of 320 units.\", \"evidence_chunk_ids\": [\"chk_evt_000991\", \"chk_evt_000149\", \"chk_evt_000175\", \"chk_evt_000894\", \"chk_evt_000958\"]}", "p_toks": 348, "c_toks": 83, "dt": 2.823699951171875}

@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"The evidence indicates that the occupancy is at least 229 units, which exceeds the nominal capacity of 484 units, leading to a calculation of 0 available capacity.\", \"evidence_chunk_ids\": [\"chk_agent_02_t2_qq_3_2\", \"chk_evt_000135\"]}", "p_toks": 362, "c_toks": 72, "dt": 2.7594590187072754}

@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"The capacity is inconsistent; nominal capacity is 320, but reported available capacities are unrealistic given the forecast demand.\", \"evidence_chunk_ids\": [\"chk_agent_02_t14_qq_15_2\", \"chk_agent_05_t14_qq_15_2\", \"chk_evt_000108\", \"chk_evt_000059\"]}", "p_toks": 309, "c_toks": 82, "dt": 1.6710829734802246}

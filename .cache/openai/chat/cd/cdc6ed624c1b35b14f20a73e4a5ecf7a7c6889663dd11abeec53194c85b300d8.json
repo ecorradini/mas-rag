@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 206, \"rationale\": \"The nominal capacity of Warehouse Delta is 430 units. The highest forecast demand is 224 units, so available capacity is calculated as 430 - 224 = 206 units.\", \"evidence_chunk_ids\": [\"chk_evt_000158\"]}", "p_toks": 340, "c_toks": 61, "dt": 1.899796962738037}

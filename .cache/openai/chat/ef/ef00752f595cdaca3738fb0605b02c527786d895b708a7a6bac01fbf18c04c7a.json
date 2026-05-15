@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 1745, \"rationale\": \"The working capacity of warehouse Beta is stated to be 1745 units, and there is no occupancy information provided, so the available capacity is equal to the working capacity.\", \"evidence_chunk_ids\": [\"chk_pz_5_800798\"]}", "p_toks": 349, "c_toks": 63, "dt": 1.6559438705444336}

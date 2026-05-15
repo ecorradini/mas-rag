@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"The total forecast demand for Warehouse Beta exceeds its nominal capacity, leading to no available capacity.\", \"evidence_chunk_ids\": [\"chk_evt_000165\", \"chk_evt_000043\", \"chk_evt_000116\", \"chk_evt_000174\", \"chk_evt_000067\"]}", "p_toks": 340, "c_toks": 71, "dt": 2.0023438930511475}

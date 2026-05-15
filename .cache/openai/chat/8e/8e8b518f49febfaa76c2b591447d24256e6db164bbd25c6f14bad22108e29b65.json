@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"yes\", \"rationale\": \"The forecast demand of 269 units is less than the nominal capacity of 484 units.\", \"evidence_chunk_ids\": [\"chk_evt_000012\", \"chk_evt_000185\"]}", "p_toks": 354, "c_toks": 50, "dt": 1.4573798179626465}
