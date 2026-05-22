@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 253, \"rationale\": \"The most recent demand_forecast statement for warehouse Beta is 253 from multiple chunks.\", \"evidence_chunk_ids\": [\"chk_agent_00_t22_qq_23_1\", \"chk_agent_00_t35_qq_36_2\", \"chk_agent_00_t45_qq_46_2\", \"chk_agent_00_t72_qq_73_2\", \"chk_agent_00_t82_qq_83_0\"]}", "p_toks": 404, "c_toks": 105, "dt": 2.0380020141601562}

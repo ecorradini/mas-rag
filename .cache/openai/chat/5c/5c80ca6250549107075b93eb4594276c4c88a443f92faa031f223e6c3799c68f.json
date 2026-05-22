@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"no\", \"rationale\": \"Warehouse Alpha has conflicting capacity statements, with the most authoritative being 368 units, which indicates it is currently not within its physical capacity.\", \"evidence_chunk_ids\": [\"chk_agent_01_t30_qq_31_2\", \"chk_evt_000113\", \"chk_evt_000209\"]}", "p_toks": 369, "c_toks": 73, "dt": 1.832190990447998}

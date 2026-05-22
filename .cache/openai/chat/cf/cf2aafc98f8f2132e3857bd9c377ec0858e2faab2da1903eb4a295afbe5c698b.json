@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"yes\", \"rationale\": \"Warehouse Delta is handling 236 units, which is below its nominal capacity of 484 units.\", \"evidence_chunk_ids\": [\"chk_agent_01_t24_qq_25_0\"]}", "p_toks": 195, "c_toks": 51, "dt": 1.0128898620605469}

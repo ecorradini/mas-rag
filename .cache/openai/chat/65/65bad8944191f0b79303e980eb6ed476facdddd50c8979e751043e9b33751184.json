@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"The working capacity of warehouse Beta is 1745 units, but the total forecast demand exceeds this capacity, leading to no available capacity.\", \"evidence_chunk_ids\": [\"chk_pz_5_800798\", \"chk_evt_000018\", \"chk_evt_000002\", \"chk_evt_000034\", \"chk_evt_000010\"]}", "p_toks": 349, "c_toks": 83, "dt": 1.1542608737945557}

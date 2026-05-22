@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"no\", \"rationale\": \"Multiple sources indicate that Warehouse Alpha is over its physical capacity due to demand exceeding 421 units.\", \"evidence_chunk_ids\": [\"chk_agent_01_t33_qq_34_0\", \"chk_agent_01_t38_qq_39_1\", \"chk_agent_04_t38_qq_39_1\", \"chk_agent_01_t44_qq_45_2\"]}", "p_toks": 394, "c_toks": 93, "dt": 1.7701659202575684}

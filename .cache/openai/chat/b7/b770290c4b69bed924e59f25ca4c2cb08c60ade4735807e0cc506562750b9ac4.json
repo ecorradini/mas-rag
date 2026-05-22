@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"yes\", \"rationale\": \"Warehouse Delta is handling 188 units, which is within its nominal capacity of 432 units.\", \"evidence_chunk_ids\": [\"chk_agent_01_t21_qq_22_1\", \"chk_agent_01_t24_qq_25_1\", \"chk_agent_04_t24_qq_25_1\", \"chk_agent_01_t28_qq_29_1\", \"chk_agent_01_t13_qq_14_1\"]}", "p_toks": 428, "c_toks": 107, "dt": 1.9041390419006348}

@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"Warehouse Gamma has 0 units of capacity available based on multiple sources, despite a nominal capacity of 352 units.\", \"evidence_chunk_ids\": [\"chk_agent_02_t122_qq_123_1\", \"chk_agent_02_t9_qq_10_2\", \"chk_agent_02_t1_qq_2_2\"]}", "p_toks": 368, "c_toks": 83, "dt": 1.5045256614685059}

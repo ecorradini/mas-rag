@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"yes\", \"rationale\": \"The highest forecast demand reported for Warehouse Alpha is 219 units, which is below its nominal capacity of 420 units.\", \"evidence_chunk_ids\": [\"chk_evt_000105\", \"chk_evt_000113\", \"chk_evt_000033\", \"chk_evt_000073\"]}", "p_toks": 351, "c_toks": 70, "dt": 1.3339588642120361}

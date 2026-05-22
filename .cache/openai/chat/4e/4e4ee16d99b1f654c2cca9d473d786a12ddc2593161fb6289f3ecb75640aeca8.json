@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"no\", \"rationale\": \"Warehouse Beta's forecast demand of 288 units exceeds its nominal capacity of 591 units, indicating it is over capacity.\", \"evidence_chunk_ids\": [\"chk_evt_000018\", \"chk_evt_000115\", \"chk_evt_000010\", \"chk_evt_000074\"]}", "p_toks": 358, "c_toks": 70, "dt": 1.0029878616333008}

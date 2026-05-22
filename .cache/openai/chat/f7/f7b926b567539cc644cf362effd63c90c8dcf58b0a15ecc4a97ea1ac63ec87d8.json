@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"The forecast demand exceeds the working capacity, resulting in no available capacity.\", \"evidence_chunk_ids\": [\"chk_agent_02_t3_qq_4_1\", \"chk_agent_05_t3_qq_4_1\", \"chk_agent_08_t3_qq_4_1\"]}", "p_toks": 397, "c_toks": 74, "dt": 1.7434358596801758}

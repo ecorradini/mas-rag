@@ -1,0 +1,1 @@
+{"text": "{\"answer\": -1, \"rationale\": \"The capacity information is inconsistent; nominal capacity is stated as 515, while available capacity is reported as 1356. This raises low confidence in the data.\", \"evidence_chunk_ids\": [\"chk_agent_02_t3_qq_4_1\", \"chk_evt_000050\", \"chk_evt_000010\"]}", "p_toks": 352, "c_toks": 78, "dt": 1.5197288990020752}

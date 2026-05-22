@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 310, \"rationale\": \"The available capacity of Warehouse Delta is confirmed to be 310 units after accounting for forecast demand, which is consistent across multiple sources.\", \"evidence_chunk_ids\": [\"chk_agent_02_t109_qq_110_0\", \"chk_agent_05_t109_qq_110_0\"]}", "p_toks": 351, "c_toks": 72, "dt": 1.8426182270050049}

@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"no\", \"rationale\": \"The physical capacity of Warehouse Alpha is 420 units, and the forecast demand exceeds this capacity.\", \"evidence_chunk_ids\": [\"chk_evt_000033\", \"chk_evt_000017\", \"chk_evt_000041\", \"chk_evt_000001\"]}", "p_toks": 355, "c_toks": 65, "dt": 1.8344509601593018}

@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 217, \"rationale\": \"The nominal capacity is 489 units. The highest forecast demand is 272 units, which leads to an occupancy of 272. Therefore, available capacity is max(0, 489 - 272) = 217 units.\", \"evidence_chunk_ids\": [\"chk_evt_000232\", \"chk_evt_000403\"]}", "p_toks": 340, "c_toks": 78, "dt": 2.10010027885437}

@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"The evidence indicates that forecast demand exceeds the nominal capacity of Warehouse Delta, leading to zero available capacity.\", \"evidence_chunk_ids\": [\"chk_agent_02_t7_qq_8_0\", \"chk_evt_000867\"]}", "p_toks": 363, "c_toks": 59, "dt": 1.289032220840454}

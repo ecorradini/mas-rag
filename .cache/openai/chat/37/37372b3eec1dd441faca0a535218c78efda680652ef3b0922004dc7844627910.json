@@ -1,0 +1,1 @@
+{"text": "{\"answer\": -16, \"rationale\": \"The evidence indicates that the occupancy exceeds the nominal capacity, resulting in negative available capacity.\", \"evidence_chunk_ids\": [\"chk_agent_02_t12_qq_13_1\", \"chk_agent_02_t18_qq_19_0\"]}", "p_toks": 373, "c_toks": 63, "dt": 2.0220088958740234}

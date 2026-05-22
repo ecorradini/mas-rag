@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"yes\", \"rationale\": \"All retrieved context confirms that Warehouse Delta is within its physical capacity of 430 units.\", \"evidence_chunk_ids\": [\"chk_agent_01_t5_qq_6_2\", \"chk_agent_04_t5_qq_6_2\", \"chk_agent_01_t7_qq_8_1\", \"chk_agent_04_t7_qq_8_1\", \"chk_agent_04_t15_qq_16_1\"]}", "p_toks": 418, "c_toks": 105, "dt": 1.9758579730987549}

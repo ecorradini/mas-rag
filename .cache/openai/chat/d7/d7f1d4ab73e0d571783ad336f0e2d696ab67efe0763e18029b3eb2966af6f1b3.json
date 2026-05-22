@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"no\", \"rationale\": \"Warehouse Alpha is over its physical capacity with a demand forecast of 220 against a capacity of 210.\", \"evidence_chunk_ids\": [\"chk_agent_01_t32_qq_33_0\", \"chk_agent_04_t27_qq_28_1\", \"chk_agent_04_t32_qq_33_0\", \"chk_agent_01_t27_qq_28_1\"]}", "p_toks": 421, "c_toks": 95, "dt": 2.5024588108062744}

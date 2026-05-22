@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"yes\", \"rationale\": \"The highest reported forecast demand for warehouse Beta is 258 units, which is below its nominal capacity of 455 units.\", \"evidence_chunk_ids\": [\"chk_evt_000044\", \"chk_evt_000019\", \"chk_evt_000027\", \"chk_evt_000011\"]}", "p_toks": 351, "c_toks": 70, "dt": 1.319709062576294}

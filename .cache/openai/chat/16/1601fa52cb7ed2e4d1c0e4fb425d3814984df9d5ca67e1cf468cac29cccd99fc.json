@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 254, \"rationale\": \"The available capacity is calculated as max(0, capacity - occupancy). The context indicates that Warehouse Alpha has 254 units available after accounting for forecast demand.\", \"evidence_chunk_ids\": [\"chk_agent_02_t10_qq_11_2\", \"chk_agent_05_t10_qq_11_2\"]}", "p_toks": 356, "c_toks": 77, "dt": 2.0991852283477783}

@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"yes\", \"rationale\": \"The forecast demand of 179 units is well below the nominal capacity of 346 units.\", \"evidence_chunk_ids\": [\"chk_evt_000194\", \"chk_evt_000234\", \"chk_evt_000410\", \"chk_evt_000506\", \"chk_evt_000634\"]}", "p_toks": 348, "c_toks": 71, "dt": 2.6893441677093506}

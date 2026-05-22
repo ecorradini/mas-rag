@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"The maximum occupancy based on forecast demand exceeds the nominal capacity, leading to negative available capacity.\", \"evidence_chunk_ids\": [\"chk_evt_000046\", \"chk_evt_000037\", \"chk_evt_000021\", \"chk_evt_000004\", \"chk_evt_000013\"]}", "p_toks": 340, "c_toks": 71, "dt": 1.4216220378875732}

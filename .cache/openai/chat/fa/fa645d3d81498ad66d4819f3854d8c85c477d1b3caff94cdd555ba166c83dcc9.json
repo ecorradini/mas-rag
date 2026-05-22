@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"Warehouse Gamma's forecast demand exceeds its nominal capacity, resulting in no available capacity.\", \"evidence_chunk_ids\": [\"chk_agent_02_t20_qq_21_1\", \"chk_agent_08_t20_qq_21_1\", \"chk_evt_000043\", \"chk_evt_000067\", \"chk_evt_000157\"]}", "p_toks": 370, "c_toks": 83, "dt": 3.569211959838867}

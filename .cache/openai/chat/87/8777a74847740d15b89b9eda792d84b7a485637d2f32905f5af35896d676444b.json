@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"no\", \"rationale\": \"Multiple chunks indicate that Warehouse Beta is currently over its physical capacity.\", \"evidence_chunk_ids\": [\"chk_agent_01_t52_qq_53_2\", \"chk_agent_01_t55_qq_56_1\", \"chk_agent_01_t42_qq_43_2\"]}", "p_toks": 422, "c_toks": 73, "dt": 1.6521070003509521}

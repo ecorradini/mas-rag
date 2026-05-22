@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"no\", \"rationale\": \"Multiple agents confirm that Warehouse Gamma is over its physical capacity.\", \"evidence_chunk_ids\": [\"chk_agent_07_t85_qq_86_1\", \"chk_agent_01_t91_qq_92_1\", \"chk_agent_04_t91_qq_92_1\", \"chk_agent_07_t91_qq_92_1\", \"chk_agent_04_t99_qq_100_1\"]}", "p_toks": 358, "c_toks": 100, "dt": 2.0353078842163086}

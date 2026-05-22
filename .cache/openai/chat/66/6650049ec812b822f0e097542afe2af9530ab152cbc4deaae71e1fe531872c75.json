@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 209, \"rationale\": \"The available capacity is consistent across multiple sources, indicating that 209 units are available.\", \"evidence_chunk_ids\": [\"chk_agent_02_t11_qq_12_0\", \"chk_agent_05_t11_qq_12_0\"]}", "p_toks": 346, "c_toks": 63, "dt": 1.5570909976959229}

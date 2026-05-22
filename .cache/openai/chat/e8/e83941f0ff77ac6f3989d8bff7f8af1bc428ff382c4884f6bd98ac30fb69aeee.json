@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"yes\", \"rationale\": \"All retrieved chunks consistently indicate that Warehouse Beta is within its physical capacity with a forecast demand below the nominal capacity.\", \"evidence_chunk_ids\": [\"chk_agent_01_t22_qq_23_1\", \"chk_agent_04_t22_qq_23_1\", \"chk_agent_07_t22_qq_23_1\"]}", "p_toks": 440, "c_toks": 82, "dt": 2.126955032348633}

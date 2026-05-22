@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"no\", \"rationale\": \"Warehouse Alpha has exceeded its physical limits and has 0 units available.\", \"evidence_chunk_ids\": [\"chk_agent_01_t27_qq_28_1\", \"chk_agent_01_t32_qq_33_0\", \"chk_agent_01_t33_qq_34_0\", \"chk_agent_01_t8_qq_9_0\", \"chk_agent_02_t26_qq_27_1\"]}", "p_toks": 388, "c_toks": 102, "dt": 1.8194031715393066}

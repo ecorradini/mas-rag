@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"no\", \"rationale\": \"Warehouse Delta is exceeding its nominal capacity of 484 units, as it has 0 units of available capacity.\", \"evidence_chunk_ids\": [\"chk_agent_02_t23_qq_24_1\", \"chk_evt_000135\"]}", "p_toks": 384, "c_toks": 61, "dt": 2.161212921142578}

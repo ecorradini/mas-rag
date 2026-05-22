@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"no\", \"rationale\": \"The forecast demand has exceeded the nominal capacity of 430 units, indicating that Warehouse Delta is not within its physical capacity.\", \"evidence_chunk_ids\": [\"chk_evt_000020\", \"chk_evt_000036\"]}", "p_toks": 386, "c_toks": 56, "dt": 0.8549697399139404}

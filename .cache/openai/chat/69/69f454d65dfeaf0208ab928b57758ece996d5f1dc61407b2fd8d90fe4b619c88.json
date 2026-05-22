@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"yes\", \"rationale\": \"The current forecast demand is 266 units, which is below the nominal capacity of 502 units.\", \"evidence_chunk_ids\": [\"chk_evt_000021\"]}", "p_toks": 354, "c_toks": 45, "dt": 1.412564992904663}

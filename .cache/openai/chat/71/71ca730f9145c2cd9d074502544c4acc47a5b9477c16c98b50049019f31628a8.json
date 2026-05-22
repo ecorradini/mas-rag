@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"The nominal capacity is 497 units, and the occupancy is 497 (from the forecast demand of 212 units and 162 units), leading to 0 available units.\", \"evidence_chunk_ids\": [\"chk_evt_000107\", \"chk_evt_000033\"]}", "p_toks": 349, "c_toks": 67, "dt": 1.0428850650787354}

@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 234, \"rationale\": \"Warehouse Alpha has a nominal capacity of 420 units. The highest forecast demand is 186 units, so the available capacity is calculated as max(0, 420 - 186) = 234 units.\", \"evidence_chunk_ids\": [\"chk_evt_001418\"]}", "p_toks": 340, "c_toks": 67, "dt": 1.361624002456665}

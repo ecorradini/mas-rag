@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"no\", \"rationale\": \"Warehouse Delta is over its physical capacity with a forecast demand of 287 units against a nominal capacity of 502 units.\", \"evidence_chunk_ids\": [\"chk_agent_01_t2_qq_3_1\", \"chk_agent_04_t2_qq_3_1\", \"chk_agent_02_t5_qq_6_2\"]}", "p_toks": 399, "c_toks": 84, "dt": 1.7277450561523438}

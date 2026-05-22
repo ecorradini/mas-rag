@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"no\", \"rationale\": \"Warehouse Delta is currently over its physical capacity of 502 units.\", \"evidence_chunk_ids\": [\"chk_agent_01_t2_qq_3_1\", \"chk_evt_000046\", \"chk_evt_000054\"]}", "p_toks": 375, "c_toks": 59, "dt": 1.3024342060089111}

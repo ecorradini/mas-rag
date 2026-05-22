@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"Warehouse Delta has inconsistent capacity figures (923, 1024, 1277), leading to low confidence in determining available capacity.\", \"evidence_chunk_ids\": [\"chk_pz_2_751984\", \"chk_pz_3_665699\", \"chk_pz_4_795062\"]}", "p_toks": 326, "c_toks": 74, "dt": 1.9557552337646484}

@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"The nominal capacity is 366 units, but the forecast demands range from 156 to 172 units, suggesting that the total demand exceeds the available capacity.\", \"evidence_chunk_ids\": [\"chk_evt_000902\", \"chk_evt_000410\", \"chk_evt_001514\", \"chk_evt_000133\", \"chk_evt_000426\"]}", "p_toks": 340, "c_toks": 84, "dt": 2.003376007080078}

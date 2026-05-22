@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"yes\", \"rationale\": \"Warehouse Gamma has a demand of 153 units against a nominal capacity of 320 units, indicating it is within its physical capacity.\", \"evidence_chunk_ids\": [\"chk_agent_01_t57_qq_58_2\"]}", "p_toks": 198, "c_toks": 58, "dt": 1.6141691207885742}

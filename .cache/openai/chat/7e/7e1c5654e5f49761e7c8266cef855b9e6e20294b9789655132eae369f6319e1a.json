@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 233, \"rationale\": \"The most recent demand_forecast statement for warehouse Delta is 233 from multiple sources.\", \"evidence_chunk_ids\": [\"chk_agent_00_t164_qq_165_0\", \"chk_agent_00_t35_qq_36_0\", \"chk_agent_03_t50_qq_51_2\", \"chk_agent_03_t69_qq_70_2\"]}", "p_toks": 409, "c_toks": 91, "dt": 1.903193712234497}

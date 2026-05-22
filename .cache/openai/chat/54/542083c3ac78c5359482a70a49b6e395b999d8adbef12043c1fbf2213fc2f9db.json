@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"no\", \"rationale\": \"Warehouse Beta is over its physical capacity due to a forecast demand of 288, which exceeds its nominal capacity of 515.\", \"evidence_chunk_ids\": [\"chk_agent_01_t54_qq_55_1\", \"chk_agent_01_t63_qq_64_1\", \"chk_agent_01_t15_qq_16_2\", \"chk_agent_01_t22_qq_23_1\"]}", "p_toks": 404, "c_toks": 99, "dt": 2.3624579906463623}

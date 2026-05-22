@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"no\", \"rationale\": \"Warehouse Delta has 0 units of capacity available, indicating it is at full capacity.\", \"evidence_chunk_ids\": [\"chk_agent_02_t4_qq_5_1\"]}", "p_toks": 193, "c_toks": 49, "dt": 0.9761631488800049}

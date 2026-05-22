@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"no\", \"rationale\": \"The current forecast demand is unavailable, making it impossible to determine if warehouse Delta is within its physical capacity.\", \"evidence_chunk_ids\": [\"chk_agent_00_t1_qq_2_1\", \"chk_agent_03_t1_qq_2_1\"]}", "p_toks": 282, "c_toks": 67, "dt": 1.3294520378112793}

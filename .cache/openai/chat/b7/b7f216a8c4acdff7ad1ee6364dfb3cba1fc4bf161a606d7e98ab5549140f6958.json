@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"The occupancy is equal to the forecast demand, which is 502 units, leaving no available capacity.\", \"evidence_chunk_ids\": [\"chk_evt_000036\", \"chk_evt_000044\", \"chk_evt_000100\", \"chk_evt_000028\", \"chk_evt_000068\"]}", "p_toks": 340, "c_toks": 73, "dt": 2.9097869396209717}

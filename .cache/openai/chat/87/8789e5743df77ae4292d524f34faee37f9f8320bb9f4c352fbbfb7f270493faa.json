@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"no\", \"rationale\": \"Warehouse Alpha is reported to be over its physical capacity due to demand exceeding 421 units.\", \"evidence_chunk_ids\": [\"chk_agent_04_t27_qq_28_1\", \"chk_agent_01_t27_qq_28_1\", \"chk_evt_000065\"]}", "p_toks": 387, "c_toks": 71, "dt": 1.5955252647399902}

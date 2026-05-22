@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"All sources consistently report that Warehouse Gamma has 0 units of capacity available.\", \"evidence_chunk_ids\": [\"chk_agent_02_t9_qq_10_2\", \"chk_agent_05_t9_qq_10_2\", \"chk_agent_08_t9_qq_10_2\", \"chk_agent_05_t18_qq_19_2\", \"chk_agent_08_t18_qq_19_2\"]}", "p_toks": 355, "c_toks": 103, "dt": 2.3647990226745605}

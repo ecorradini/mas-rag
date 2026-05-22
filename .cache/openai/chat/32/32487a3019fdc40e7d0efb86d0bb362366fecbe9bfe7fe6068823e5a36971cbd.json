@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 1745, \"rationale\": \"The working capacity of warehouse Beta is stated as 1745 units, and there is no occupancy information provided, so we assume full capacity is available.\", \"evidence_chunk_ids\": [\"chk_pz_5_800798\"]}", "p_toks": 353, "c_toks": 59, "dt": 1.2064380645751953}

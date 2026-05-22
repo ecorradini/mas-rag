@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"The nominal capacity of Warehouse Delta is 489 units, and the forecast demand exceeds this capacity, leading to negative availability.\", \"evidence_chunk_ids\": [\"chk_evt_000012\", \"chk_evt_000004\", \"chk_evt_000036\"]}", "p_toks": 351, "c_toks": 63, "dt": 1.7727699279785156}

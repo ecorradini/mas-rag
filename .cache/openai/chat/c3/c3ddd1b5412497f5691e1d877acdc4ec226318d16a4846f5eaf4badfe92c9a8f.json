@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"no\", \"rationale\": \"The most authoritative capacity statement indicates a nominal capacity of 368 units, while the current forecast demand is 184 units, which exceeds the capacity.\", \"evidence_chunk_ids\": [\"chk_evt_000113\", \"chk_evt_000209\"]}", "p_toks": 364, "c_toks": 61, "dt": 2.4277548789978027}

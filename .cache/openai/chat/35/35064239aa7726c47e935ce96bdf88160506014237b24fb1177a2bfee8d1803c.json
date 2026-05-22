@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"Warehouse Alpha is at full capacity, indicating no available units.\", \"evidence_chunk_ids\": [\"chk_agent_05_t22_qq_23_0\", \"chk_agent_05_t59_qq_60_0\", \"chk_agent_02_t60_qq_61_0\", \"chk_agent_05_t60_qq_61_0\", \"chk_agent_02_t80_qq_81_2\"]}", "p_toks": 405, "c_toks": 100, "dt": 2.168665885925293}

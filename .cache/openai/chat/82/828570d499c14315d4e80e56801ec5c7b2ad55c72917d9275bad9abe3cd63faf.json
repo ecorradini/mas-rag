@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"Multiple sources indicate that warehouse Beta has 0 units of capacity available due to forecast demand exceeding its working capacity.\", \"evidence_chunk_ids\": [\"chk_agent_02_t3_qq_4_1\", \"chk_agent_02_t20_qq_21_2\", \"chk_agent_02_t9_qq_10_0\"]}", "p_toks": 415, "c_toks": 82, "dt": 1.728349208831787}

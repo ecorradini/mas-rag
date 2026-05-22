@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 249, \"rationale\": \"latest data from chk_evt_000020 is consistent across multiple sources\", \"evidence_chunk_ids\": [\"chk_agent_00_t2_qq_3_0\", \"chk_agent_03_t8_qq_9_2\", \"chk_agent_00_t21_qq_22_0\", \"chk_agent_03_t58_qq_59_0\"]}", "p_toks": 447, "c_toks": 88, "dt": 1.7873218059539795}

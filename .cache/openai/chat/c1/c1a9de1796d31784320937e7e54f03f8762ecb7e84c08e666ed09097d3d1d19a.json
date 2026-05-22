@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"yes\", \"rationale\": \"The forecast demand for Warehouse Gamma is below its nominal capacity of 320 units.\", \"evidence_chunk_ids\": [\"chk_evt_000149\", \"chk_evt_000175\", \"chk_evt_000224\", \"chk_evt_000108\", \"chk_evt_000208\"]}", "p_toks": 348, "c_toks": 69, "dt": 1.6465961933135986}

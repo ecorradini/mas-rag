@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"yes\", \"rationale\": \"The forecast demand across multiple reports does not exceed the nominal capacity of 455 units.\", \"evidence_chunk_ids\": [\"chk_evt_000071\", \"chk_evt_000104\", \"chk_evt_000203\", \"chk_evt_000236\", \"chk_evt_000120\"]}", "p_toks": 348, "c_toks": 70, "dt": 1.5701310634613037}

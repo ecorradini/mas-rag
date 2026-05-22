@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"Warehouse Delta has a nominal capacity of 484 units but currently has 0 units available due to occupancy.\", \"evidence_chunk_ids\": [\"chk_agent_02_t14_qq_15_2\", \"chk_agent_02_t2_qq_3_2\", \"chk_agent_02_t12_qq_13_0\"]}", "p_toks": 358, "c_toks": 81, "dt": 3.5795438289642334}

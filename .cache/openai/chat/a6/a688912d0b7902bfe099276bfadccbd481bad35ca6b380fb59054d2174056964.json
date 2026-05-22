@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"yes\", \"rationale\": \"The nominal capacity of Warehouse Beta is 578 units, and the highest forecast demand reported is 384 units, which is within capacity.\", \"evidence_chunk_ids\": [\"chk_evt_000043\", \"chk_evt_000051\", \"chk_evt_000067\", \"chk_evt_000002\", \"chk_evt_000010\"]}", "p_toks": 348, "c_toks": 80, "dt": 1.40565824508667}

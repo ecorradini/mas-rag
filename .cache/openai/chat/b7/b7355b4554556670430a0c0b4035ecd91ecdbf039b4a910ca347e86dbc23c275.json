@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"no\", \"rationale\": \"Multiple agents confirm that Warehouse Alpha is currently over its physical capacity.\", \"evidence_chunk_ids\": [\"chk_agent_04_t138_qq_139_0\", \"chk_agent_07_t138_qq_139_0\", \"chk_agent_01_t143_qq_144_0\", \"chk_agent_07_t143_qq_144_0\", \"chk_agent_07_t121_qq_122_0\"]}", "p_toks": 365, "c_toks": 101, "dt": 1.5989408493041992}

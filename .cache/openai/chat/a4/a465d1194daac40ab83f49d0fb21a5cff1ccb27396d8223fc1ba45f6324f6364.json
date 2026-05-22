@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"The maximum occupancy based on forecast demand (173 units) exceeds the nominal capacity (368 units), leading to a calculated available capacity of 0 units.\", \"evidence_chunk_ids\": [\"chk_evt_000049\", \"chk_evt_000200\"]}", "p_toks": 354, "c_toks": 62, "dt": 2.1192679405212402}

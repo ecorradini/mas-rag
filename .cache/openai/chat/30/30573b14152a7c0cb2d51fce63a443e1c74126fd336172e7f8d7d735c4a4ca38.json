@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"The total forecast demand for Warehouse Delta exceeds its nominal capacity of 430 units, leading to no available capacity.\", \"evidence_chunk_ids\": [\"chk_evt_000012\", \"chk_evt_000004\", \"chk_evt_000094\", \"chk_evt_000060\", \"chk_evt_000077\"]}", "p_toks": 340, "c_toks": 75, "dt": 3.0909578800201416}

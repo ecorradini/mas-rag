@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"Warehouse Alpha has a nominal capacity of 421 units but currently has 0 units available due to occupancy.\", \"evidence_chunk_ids\": [\"chk_agent_02_t26_qq_27_1\", \"chk_agent_02_t3_qq_4_1\", \"chk_agent_02_t15_qq_16_2\"]}", "p_toks": 359, "c_toks": 81, "dt": 1.7801079750061035}

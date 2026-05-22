@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"yes\", \"rationale\": \"Warehouse Alpha's forecast demand is 231 units, which is below its nominal capacity of 420 units.\", \"evidence_chunk_ids\": [\"chk_agent_01_t8_qq_9_2\"]}", "p_toks": 367, "c_toks": 53, "dt": 1.3162009716033936}

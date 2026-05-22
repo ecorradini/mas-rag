@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"no\", \"rationale\": \"The current forecast demand of 348 exceeds the physical capacity of Warehouse Beta.\", \"evidence_chunk_ids\": [\"chk_agent_00_t1_qq_2_0\"]}", "p_toks": 183, "c_toks": 47, "dt": 0.8262908458709717}

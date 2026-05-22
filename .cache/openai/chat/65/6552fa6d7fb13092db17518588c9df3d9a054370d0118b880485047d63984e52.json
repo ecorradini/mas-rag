@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"Warehouse Alpha has been reported to have 0 units of capacity available in multiple instances, despite a nominal capacity of 421 units.\", \"evidence_chunk_ids\": [\"chk_agent_02_t3_qq_4_1\", \"chk_agent_02_t15_qq_16_2\"]}", "p_toks": 346, "c_toks": 72, "dt": 2.388540029525757}

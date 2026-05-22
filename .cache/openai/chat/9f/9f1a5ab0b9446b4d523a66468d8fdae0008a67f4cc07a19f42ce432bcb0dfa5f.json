@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"no\", \"rationale\": \"Warehouse Delta is currently over capacity with 0 units available against a capacity of 1166 units.\", \"evidence_chunk_ids\": [\"chk_agent_01_t6_qq_7_1\", \"chk_agent_02_t13_qq_14_2\", \"chk_agent_02_t17_qq_18_1\"]}", "p_toks": 415, "c_toks": 80, "dt": 1.627243995666504}

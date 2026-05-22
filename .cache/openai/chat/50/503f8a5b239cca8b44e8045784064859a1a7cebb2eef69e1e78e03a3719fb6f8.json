@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"yes\", \"rationale\": \"Warehouse Gamma's forecast demand of 173 units is below its nominal capacity of 352 units, indicating it is within capacity.\", \"evidence_chunk_ids\": [\"chk_agent_01_t7_qq_8_2\", \"chk_agent_04_t7_qq_8_2\", \"chk_evt_000019\", \"chk_evt_000027\", \"chk_evt_000043\"]}", "p_toks": 374, "c_toks": 92, "dt": 1.9125728607177734}

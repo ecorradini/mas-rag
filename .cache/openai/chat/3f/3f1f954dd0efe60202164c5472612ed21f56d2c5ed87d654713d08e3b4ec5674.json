@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"The available capacity is determined by the most consistent and realistic evidence, which indicates that occupancy exceeds capacity, resulting in 0 units available.\", \"evidence_chunk_ids\": [\"chk_agent_05_t39_qq_40_1\", \"chk_agent_02_t39_qq_40_1\"]}", "p_toks": 360, "c_toks": 73, "dt": 1.0910520553588867}

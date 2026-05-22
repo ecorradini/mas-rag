@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"no\", \"rationale\": \"Warehouse Alpha's physical capacity is 328 units, and the forecast demand is 213 units, which exceeds the nominal capacity.\", \"evidence_chunk_ids\": [\"chk_evt_000009\", \"chk_evt_000001\"]}", "p_toks": 356, "c_toks": 57, "dt": 1.5995969772338867}

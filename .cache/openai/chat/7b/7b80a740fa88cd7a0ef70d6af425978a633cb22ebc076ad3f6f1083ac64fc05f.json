@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"yes\", \"rationale\": \"The forecast demand of 287 units does not exceed the nominal capacity of 502 units.\", \"evidence_chunk_ids\": [\"chk_evt_000021\", \"chk_evt_000038\"]}", "p_toks": 348, "c_toks": 50, "dt": 1.0472147464752197}

@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"no\", \"rationale\": \"Warehouse Delta is reported to be over capacity with 0 units available against its physical capacity of 1166 units.\", \"evidence_chunk_ids\": [\"chk_agent_01_t149_qq_150_0\", \"chk_agent_01_t124_qq_125_0\", \"chk_agent_01_t125_qq_126_1\", \"chk_agent_01_t129_qq_130_1\"]}", "p_toks": 421, "c_toks": 97, "dt": 2.644425868988037}

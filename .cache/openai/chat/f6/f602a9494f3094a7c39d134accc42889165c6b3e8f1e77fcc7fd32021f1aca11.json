@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"no\", \"rationale\": \"The physical capacity of warehouse Delta is 502 units, and the forecast demand is 266 units, which exceeds the capacity.\", \"evidence_chunk_ids\": [\"chk_evt_000021\"]}", "p_toks": 360, "c_toks": 50, "dt": 1.1038658618927002}

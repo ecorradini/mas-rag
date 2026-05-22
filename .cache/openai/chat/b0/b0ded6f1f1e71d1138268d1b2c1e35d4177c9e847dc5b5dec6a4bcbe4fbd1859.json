@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 366, \"rationale\": \"The nominal capacity is 537 units and the highest forecast demand is 171 units, leading to an available capacity of 537 - 171 = 366 units.\", \"evidence_chunk_ids\": [\"chk_evt_000017\", \"chk_evt_000025\", \"chk_evt_000001\", \"chk_evt_000009\", \"chk_pz_1_771720\"]}", "p_toks": 348, "c_toks": 89, "dt": 2.512235164642334}

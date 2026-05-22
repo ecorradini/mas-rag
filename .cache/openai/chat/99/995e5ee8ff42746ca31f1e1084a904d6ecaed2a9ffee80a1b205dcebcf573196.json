@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"no\", \"rationale\": \"Warehouse Gamma is over its physical capacity with 643 units against a limit of 343 units.\", \"evidence_chunk_ids\": [\"chk_agent_01_t3_qq_4_2\", \"chk_agent_01_t9_qq_10_1\"]}", "p_toks": 377, "c_toks": 65, "dt": 2.710352897644043}

@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"no\", \"rationale\": \"Warehouse Delta is currently over capacity as the forecast demand of 272 exceeds its nominal capacity of 484.\", \"evidence_chunk_ids\": [\"chk_agent_01_t25_qq_26_2\", \"chk_evt_000135\"]}", "p_toks": 388, "c_toks": 60, "dt": 28.64195203781128}

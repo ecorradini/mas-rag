@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"no\", \"rationale\": \"Warehouse Alpha is over capacity with a demand of 220 units against an available capacity of 211 units.\", \"evidence_chunk_ids\": [\"chk_agent_01_t8_qq_9_0\", \"chk_agent_04_t8_qq_9_0\", \"chk_agent_04_t33_qq_34_0\", \"chk_agent_01_t27_qq_28_1\", \"chk_agent_04_t27_qq_28_1\"]}", "p_toks": 430, "c_toks": 109, "dt": 2.30545711517334}

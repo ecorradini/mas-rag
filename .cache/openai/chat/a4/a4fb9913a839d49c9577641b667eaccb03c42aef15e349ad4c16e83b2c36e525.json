@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"The occupancy of Warehouse Alpha exceeds its nominal capacity, indicating no available capacity.\", \"evidence_chunk_ids\": [\"chk_evt_000033\", \"chk_evt_000057\", \"chk_agent_01_t1_qq_2_0\"]}", "p_toks": 364, "c_toks": 61, "dt": 1.3356750011444092}

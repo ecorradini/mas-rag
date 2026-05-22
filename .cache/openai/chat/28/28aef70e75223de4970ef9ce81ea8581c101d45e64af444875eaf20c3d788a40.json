@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"Multiple sources confirm that Warehouse Alpha has 0 units of capacity available.\", \"evidence_chunk_ids\": [\"chk_agent_02_t190_qq_191_1\", \"chk_agent_05_t190_qq_191_1\", \"chk_agent_05_t191_qq_192_2\", \"chk_agent_02_t191_qq_192_2\"]}", "p_toks": 360, "c_toks": 88, "dt": 2.0792298316955566}

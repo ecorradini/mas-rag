@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"yes\", \"rationale\": \"The nominal capacity of Warehouse Gamma is 320 units, which is greater than the forecast demand of 156 units.\", \"evidence_chunk_ids\": [\"chk_evt_000323\", \"chk_evt_000427\", \"chk_evt_000467\", \"chk_evt_000811\", \"chk_evt_000835\"]}", "p_toks": 348, "c_toks": 76, "dt": 2.0614211559295654}

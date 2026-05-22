@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 265, \"rationale\": \"The most recent forecast demand statement for warehouse Alpha is consistent across multiple sources.\", \"evidence_chunk_ids\": [\"chk_agent_00_t76_qq_77_2\", \"chk_agent_03_t76_qq_77_2\", \"chk_agent_03_t77_qq_78_1\", \"chk_agent_06_t77_qq_78_1\", \"chk_agent_00_t79_qq_80_1\"]}", "p_toks": 409, "c_toks": 103, "dt": 1.991575002670288}

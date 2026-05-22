@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"The nominal capacity of Warehouse Alpha is 420 units, and the forecast demand exceeds this capacity, leading to a negative available capacity.\", \"evidence_chunk_ids\": [\"chk_evt_000105\", \"chk_evt_000153\", \"chk_evt_000033\"]}", "p_toks": 349, "c_toks": 65, "dt": 1.377363920211792}

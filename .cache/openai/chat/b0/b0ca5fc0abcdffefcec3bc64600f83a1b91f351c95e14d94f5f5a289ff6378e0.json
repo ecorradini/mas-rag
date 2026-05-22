@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 247, \"rationale\": \"The most recent demand_forecast statement for warehouse Delta is 247 units.\", \"evidence_chunk_ids\": [\"chk_agent_00_t8_qq_9_0\", \"chk_agent_00_t9_qq_10_0\", \"chk_evt_000044\"]}", "p_toks": 402, "c_toks": 68, "dt": 2.0397298336029053}

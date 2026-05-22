@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"yes\", \"rationale\": \"The total forecast demand across all retrieved contexts (1091 units) is less than the nominal capacity (432 units) of the warehouse.\", \"evidence_chunk_ids\": [\"chk_evt_000261\", \"chk_evt_000170\", \"chk_evt_000086\", \"chk_evt_000028\", \"chk_evt_000127\"]}", "p_toks": 348, "c_toks": 80, "dt": 2.331292152404785}

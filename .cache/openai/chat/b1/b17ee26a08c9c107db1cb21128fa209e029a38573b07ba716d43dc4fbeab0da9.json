@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 305, \"rationale\": \"Capacity available is calculated as max(0, capacity - occupancy). Warehouse Beta has a capacity of 578 units and a forecast demand (occupancy) of 273 units, resulting in 305 units available.\", \"evidence_chunk_ids\": [\"chk_agent_02_t1_qq_2_0\", \"chk_agent_03_t8_qq_9_2\"]}", "p_toks": 356, "c_toks": 88, "dt": 1.8374898433685303}

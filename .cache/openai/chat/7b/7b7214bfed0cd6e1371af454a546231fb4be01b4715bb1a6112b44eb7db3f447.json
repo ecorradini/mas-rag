@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"There are conflicting reports about the capacity of warehouse Beta, but the evidence indicates that forecast demand exceeds its capacity, leading to zero available capacity.\", \"evidence_chunk_ids\": [\"chk_agent_05_t3_qq_4_1\", \"chk_evt_000026\", \"chk_evt_000075\"]}", "p_toks": 371, "c_toks": 74, "dt": 1.2182848453521729}

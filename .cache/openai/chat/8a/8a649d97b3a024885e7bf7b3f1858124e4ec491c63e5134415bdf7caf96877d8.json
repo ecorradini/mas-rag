@@ -1,0 +1,1 @@
+{"text": "{\"answer\": -1, \"rationale\": \"Warehouse Delta's available capacity is reported as -1 due to occupancy exceeding its nominal capacity of 484 units.\", \"evidence_chunk_ids\": [\"chk_agent_02_t14_qq_15_2\", \"chk_agent_05_t2_qq_3_2\", \"chk_agent_05_t12_qq_13_0\"]}", "p_toks": 383, "c_toks": 82, "dt": 1.7243897914886475}

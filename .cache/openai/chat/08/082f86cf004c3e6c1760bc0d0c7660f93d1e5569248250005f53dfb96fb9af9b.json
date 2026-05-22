@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"Warehouse Beta has exceeded its nominal capacity, resulting in 0 units of available capacity.\", \"evidence_chunk_ids\": [\"chk_agent_02_t20_qq_21_2\", \"chk_agent_05_t20_qq_21_2\", \"chk_agent_08_t20_qq_21_2\", \"chk_agent_02_t90_qq_91_1\", \"chk_agent_02_t93_qq_94_2\"]}", "p_toks": 405, "c_toks": 105, "dt": 2.1232969760894775}

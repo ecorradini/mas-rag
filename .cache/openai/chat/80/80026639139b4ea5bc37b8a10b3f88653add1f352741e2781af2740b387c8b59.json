@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"no\", \"rationale\": \"Warehouse Alpha is reported to be over its physical capacity with an available capacity of -1 units.\", \"evidence_chunk_ids\": [\"chk_agent_01_t33_qq_34_0\", \"chk_agent_04_t33_qq_34_0\", \"chk_agent_07_t33_qq_34_0\"]}", "p_toks": 405, "c_toks": 79, "dt": 1.786191701889038}

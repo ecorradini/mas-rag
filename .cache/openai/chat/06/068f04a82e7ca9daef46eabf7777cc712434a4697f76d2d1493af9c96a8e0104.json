@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"The maximum forecast demand across the retrieved context exceeds the nominal capacity, leading to a negative availability calculation.\", \"evidence_chunk_ids\": [\"chk_evt_000410\", \"chk_evt_000133\", \"chk_evt_000426\", \"chk_evt_000011\", \"chk_evt_000019\"]}", "p_toks": 340, "c_toks": 73, "dt": 1.7743759155273438}

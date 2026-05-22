@@ -1,0 +1,1 @@
+{"text": "{\"answer\": -1, \"rationale\": \"Inconsistent forecast demand for Warehouse Delta with nominal capacity of 484 units across multiple entries.\", \"evidence_chunk_ids\": [\"chk_evt_000004\", \"chk_evt_000020\", \"chk_evt_000012\"]}", "p_toks": 343, "c_toks": 57, "dt": 1.157764196395874}

@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"Despite the nominal capacity being 332 units, the available capacity is reported as 0 units in multiple sources, indicating full occupancy or no available space.\", \"evidence_chunk_ids\": [\"chk_agent_02_t3_qq_4_1\", \"chk_agent_08_t3_qq_4_1\", \"chk_agent_05_t3_qq_4_1\"]}", "p_toks": 369, "c_toks": 90, "dt": 1.3762991428375244}

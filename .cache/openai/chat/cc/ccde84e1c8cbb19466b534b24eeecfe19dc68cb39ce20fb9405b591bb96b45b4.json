@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 233, \"rationale\": \"Nominal capacity is 430 units and forecast demand is 197 units, so available capacity is max(0, 430 - 197) = 233.\", \"evidence_chunk_ids\": [\"chk_evt_000012\", \"chk_evt_000004\", \"chk_agent_01_t1_qq_2_1\", \"chk_agent_04_t1_qq_2_1\", \"chk_agent_07_t1_qq_2_1\"]}", "p_toks": 397, "c_toks": 107, "dt": 1.856086015701294}

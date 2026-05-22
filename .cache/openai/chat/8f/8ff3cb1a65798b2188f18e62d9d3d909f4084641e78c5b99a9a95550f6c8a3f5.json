@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 230, \"rationale\": \"The most recent forecast demand statement for warehouse Delta is consistent across multiple sources.\", \"evidence_chunk_ids\": [\"chk_agent_06_t1_qq_2_1\", \"chk_agent_00_t11_qq_12_2\", \"chk_agent_03_t11_qq_12_2\", \"chk_agent_00_t21_qq_22_0\", \"chk_agent_03_t51_qq_52_1\"]}", "p_toks": 408, "c_toks": 103, "dt": 2.0661308765411377}

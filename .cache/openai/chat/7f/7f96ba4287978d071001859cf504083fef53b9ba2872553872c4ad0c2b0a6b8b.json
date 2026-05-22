@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"The evidence indicates that Warehouse Beta is over its physical capacity, leading to an available capacity of 0 units.\", \"evidence_chunk_ids\": [\"chk_agent_02_t5_qq_6_0\", \"chk_agent_01_t2_qq_3_1\"]}", "p_toks": 380, "c_toks": 68, "dt": 1.8564348220825195}

@@ -20,6 +20,8 @@ class FLP:
         X = np.stack([c.embedding for c in candidates if c.embedding is not None])
         if len(X) < self.n_clusters + 1:
             return candidates
+        if len(np.unique(X, axis=0)) < self.n_clusters:
+            return candidates
         km = KMeans(n_clusters=self.n_clusters, n_init=4, random_state=0).fit(X)
         labels = km.labels_
         counts = np.bincount(labels)

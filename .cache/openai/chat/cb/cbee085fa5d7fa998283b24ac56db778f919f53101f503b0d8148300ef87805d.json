@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 1448, \"rationale\": \"The working capacity of warehouse Beta is 1745 units, and the forecast demand is 297 units. Therefore, available capacity is calculated as 1745 - 297 = 1448 units.\", \"evidence_chunk_ids\": [\"chk_pz_5_800798\", \"chk_evt_000042\"]}", "p_toks": 369, "c_toks": 76, "dt": 1.2385900020599365}

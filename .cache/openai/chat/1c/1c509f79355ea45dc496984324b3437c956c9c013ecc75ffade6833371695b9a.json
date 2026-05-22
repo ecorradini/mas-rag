@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"Warehouse Beta has full occupancy, resulting in 0 units of available capacity.\", \"evidence_chunk_ids\": [\"chk_agent_02_t4_qq_5_0\", \"chk_agent_02_t15_qq_16_1\", \"chk_agent_02_t22_qq_23_0\"]}", "p_toks": 365, "c_toks": 75, "dt": 1.4934241771697998}

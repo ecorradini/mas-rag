@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"The maximum capacity of Warehouse Delta is 484 units, but the forecast demand across three instances totals 745 units (210 + 228 + 307), resulting in negative available capacity.\", \"evidence_chunk_ids\": [\"chk_evt_000004\", \"chk_evt_000020\", \"chk_evt_000012\"]}", "p_toks": 340, "c_toks": 76, "dt": 2.6702117919921875}

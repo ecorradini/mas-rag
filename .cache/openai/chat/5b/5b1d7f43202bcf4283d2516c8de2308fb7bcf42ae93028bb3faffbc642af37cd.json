@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"The evidence indicates that Warehouse Beta is fully utilized with a forecast demand exceeding its nominal capacity, leading to 0 units available.\", \"evidence_chunk_ids\": [\"chk_agent_02_t15_qq_16_1\", \"chk_agent_08_t15_qq_16_1\", \"chk_agent_08_t4_qq_5_0\"]}", "p_toks": 407, "c_toks": 85, "dt": 1.9761011600494385}

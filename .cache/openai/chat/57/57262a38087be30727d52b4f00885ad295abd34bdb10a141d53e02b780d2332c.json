@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 278, \"rationale\": \"Available capacity is calculated as nominal capacity (502) minus forecast demand (224).\", \"evidence_chunk_ids\": [\"chk_evt_000718\"]}", "p_toks": 172, "c_toks": 42, "dt": 0.809798002243042}

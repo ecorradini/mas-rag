@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"The maximum capacity is 366 units, but the forecast demand across multiple instances exceeds this capacity, leading to a negative availability.\", \"evidence_chunk_ids\": [\"chk_evt_000083\", \"chk_evt_000003\", \"chk_evt_000107\", \"chk_evt_000011\", \"chk_evt_000035\"]}", "p_toks": 340, "c_toks": 78, "dt": 2.260500192642212}

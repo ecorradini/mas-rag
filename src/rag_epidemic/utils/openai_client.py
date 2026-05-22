@@ -45,10 +45,34 @@ class UsageStats:
 
 
 _USAGE = UsageStats()
+_BILLABLE_USAGE = UsageStats()
 
 
 def usage() -> UsageStats:
     return _USAGE
+
+
+def billable_usage() -> UsageStats:
+    return _BILLABLE_USAGE
+
+
+class TokenBudgetExceeded(RuntimeError):
+    """Raised before an OpenAI API call that would exceed a per-run cap."""
+
+
+def _estimate_tokens(text: str, model: str) -> int:
+    try:
+        import tiktoken
+
+        enc = tiktoken.encoding_for_model(model)
+        return len(enc.encode(text))
+    except Exception:
+        return max(1, len(text) // 4)
+
+
+def _chat_prompt_estimate(messages: list[dict[str, str]], model: str) -> int:
+    # Conservative ChatML-style overhead: content tokens + role framing.
+    return sum(_estimate_tokens(m.get("content", ""), model) + 4 for m in messages) + 8
 
 
 class OpenAIClient:
@@ -60,6 +84,7 @@ class OpenAIClient:
         embedding_model: str = "text-embedding-3-small",
         cache_dir: Path | None = None,
         enable_cache: bool = True,
+        token_cap: int = 0,
     ):
         key = get_openai_key()
         if not key:
@@ -72,6 +97,25 @@ class OpenAIClient:
         self.cache_dir = Path(cache_dir or CACHE_DIR / "openai")
         self.cache_dir.mkdir(parents=True, exist_ok=True)
         self.enable_cache = enable_cache
+        self.token_cap = token_cap
+
+    def _billable_total(self) -> int:
+        return (
+            _BILLABLE_USAGE.prompt_tokens
+            + _BILLABLE_USAGE.completion_tokens
+            + _BILLABLE_USAGE.embedding_tokens
+        )
+
+    def _ensure_budget(self, estimate: int, kind: str) -> None:
+        if self.token_cap <= 0:
+            return
+        projected = self._billable_total() + estimate
+        if projected > self.token_cap:
+            raise TokenBudgetExceeded(
+                f"{kind} would exceed per-run token cap: "
+                f"used={self._billable_total():,}, estimate={estimate:,}, "
+                f"cap={self.token_cap:,}"
+            )
 
     # ---------- cache ----------
     def _cache_path(self, kind: str, key: str) -> Path:
@@ -129,6 +173,11 @@ class OpenAIClient:
             _USAGE.completion_tokens += cached.get("c_toks", 0)
             return cached["text"]
 
+        self._ensure_budget(
+            _chat_prompt_estimate(messages, model) + max_tokens,
+            "chat completion",
+        )
+
         kwargs: dict[str, Any] = dict(
             model=model,
             messages=messages,
@@ -148,6 +197,9 @@ class OpenAIClient:
         _USAGE.completion_calls += 1
         _USAGE.prompt_tokens += p_toks
         _USAGE.completion_tokens += c_toks
+        _BILLABLE_USAGE.completion_calls += 1
+        _BILLABLE_USAGE.prompt_tokens += p_toks
+        _BILLABLE_USAGE.completion_tokens += c_toks
         self._cache_put(
             "chat", cache_key, {"text": text, "p_toks": p_toks, "c_toks": c_toks, "dt": dt}
         )
@@ -176,6 +228,10 @@ class OpenAIClient:
             # batch up to 256 at a time
             for start in range(0, len(miss_texts), 256):
                 batch = miss_texts[start : start + 256]
+                self._ensure_budget(
+                    sum(_estimate_tokens(t, model) for t in batch),
+                    "embedding",
+                )
                 resp = self._embed_call(model=model, input=batch)
                 for off, item in enumerate(resp.data):
                     idx = misses[start + off]
@@ -185,4 +241,6 @@ class OpenAIClient:
                     self._cache_put("emb", key, {"vec": vec})
                 _USAGE.embedding_tokens += resp.usage.total_tokens if resp.usage else 0
                 _USAGE.embedding_calls += len(batch)
+                _BILLABLE_USAGE.embedding_tokens += resp.usage.total_tokens if resp.usage else 0
+                _BILLABLE_USAGE.embedding_calls += len(batch)
         return out  # type: ignore[return-value]

@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"yes\", \"rationale\": \"Warehouse Gamma is reported to be within its physical capacity consistently across multiple chunks.\", \"evidence_chunk_ids\": [\"chk_agent_01_t7_qq_8_0\", \"chk_agent_01_t8_qq_9_1\", \"chk_agent_04_t8_qq_9_1\", \"chk_agent_01_t18_qq_19_2\", \"chk_agent_04_t18_qq_19_2\"]}", "p_toks": 443, "c_toks": 103, "dt": 2.6469309329986572}

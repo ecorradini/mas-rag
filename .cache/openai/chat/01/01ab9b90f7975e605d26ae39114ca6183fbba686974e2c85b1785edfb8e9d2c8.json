@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 199, \"rationale\": \"The available capacity is calculated as the reported capacity of 199 units, which is consistent across multiple sources.\", \"evidence_chunk_ids\": [\"chk_agent_02_t1_qq_2_2\", \"chk_agent_05_t1_qq_2_2\", \"chk_agent_08_t1_qq_2_2\"]}", "p_toks": 349, "c_toks": 81, "dt": 1.6276288032531738}

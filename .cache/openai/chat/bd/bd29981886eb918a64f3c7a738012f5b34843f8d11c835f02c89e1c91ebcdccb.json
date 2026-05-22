@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 244, \"rationale\": \"The available capacity is calculated as nominal capacity minus forecast demand, which is consistent across the retrieved context.\", \"evidence_chunk_ids\": [\"chk_agent_02_t2_qq_3_2\", \"chk_evt_000044\", \"chk_evt_000084\", \"chk_evt_000100\", \"chk_evt_000060\"]}", "p_toks": 348, "c_toks": 80, "dt": 1.9673662185668945}

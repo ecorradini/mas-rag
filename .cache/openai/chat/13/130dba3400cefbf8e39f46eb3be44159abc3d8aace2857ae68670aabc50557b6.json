@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"no\", \"rationale\": \"Both agents report that Warehouse Delta is currently not within its physical capacity.\", \"evidence_chunk_ids\": [\"chk_agent_01_t2_qq_3_1\", \"chk_agent_04_t2_qq_3_1\"]}", "p_toks": 240, "c_toks": 60, "dt": 2.0264508724212646}

@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 244, \"rationale\": \"The nominal capacity is 432 units, and the current occupancy is 188 units. Therefore, available capacity is max(0, 432 - 188) = 244 units.\", \"evidence_chunk_ids\": [\"chk_agent_01_t21_qq_22_1\"]}", "p_toks": 387, "c_toks": 69, "dt": 1.8313300609588623}

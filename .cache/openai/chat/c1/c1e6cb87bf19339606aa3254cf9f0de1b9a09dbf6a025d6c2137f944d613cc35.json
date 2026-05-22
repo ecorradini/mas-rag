@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"no\", \"rationale\": \"Warehouse Delta's forecast demand exceeds its nominal capacity, indicating it is not within physical capacity.\", \"evidence_chunk_ids\": [\"chk_agent_01_t18_qq_19_0\", \"chk_agent_01_t20_qq_21_2\", \"chk_agent_01_t6_qq_7_1\", \"chk_evt_000110\"]}", "p_toks": 406, "c_toks": 85, "dt": 7.470885992050171}

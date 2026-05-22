@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 201, \"rationale\": \"All sources consistently report that Warehouse Alpha has 201 units of capacity available.\", \"evidence_chunk_ids\": [\"chk_agent_02_t3_qq_4_1\", \"chk_agent_05_t3_qq_4_1\", \"chk_agent_08_t3_qq_4_1\", \"chk_agent_02_t51_qq_52_2\", \"chk_agent_08_t51_qq_52_2\"]}", "p_toks": 355, "c_toks": 103, "dt": 2.162048816680908}

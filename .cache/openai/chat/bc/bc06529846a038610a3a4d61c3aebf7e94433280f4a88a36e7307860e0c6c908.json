@@ -1,0 +1,1 @@
+{"text": "{\"answer\": -591, \"rationale\": \"The available capacity is calculated as max(0, capacity - occupancy). However, the reported figures are inconsistent, leading to low confidence in this value.\", \"evidence_chunk_ids\": [\"chk_agent_02_t17_qq_18_2\", \"chk_evt_000115\", \"chk_evt_000099\"]}", "p_toks": 366, "c_toks": 76, "dt": 1.4211492538452148}

@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"The available capacity is calculated as max(0, capacity - occupancy). Since the context states that there are 0 units available, it indicates that the occupancy equals the nominal capacity of 352 units.\", \"evidence_chunk_ids\": [\"chk_agent_02_t122_qq_123_1\"]}", "p_toks": 184, "c_toks": 72, "dt": 1.8206074237823486}

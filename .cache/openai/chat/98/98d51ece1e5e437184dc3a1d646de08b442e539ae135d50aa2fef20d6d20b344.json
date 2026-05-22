@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"Warehouse Alpha is currently over its physical capacity of 537 units, indicating that occupancy exceeds capacity.\", \"evidence_chunk_ids\": [\"chk_pz_1_771720\", \"chk_agent_01_t1_qq_2_1\", \"chk_agent_07_t1_qq_2_1\", \"chk_agent_04_t1_qq_2_1\"]}", "p_toks": 324, "c_toks": 89, "dt": 1.9204087257385254}

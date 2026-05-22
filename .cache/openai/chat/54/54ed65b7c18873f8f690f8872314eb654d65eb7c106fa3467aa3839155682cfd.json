@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"no\", \"rationale\": \"Warehouse Beta is currently over capacity as demand exceeds its physical limit of 578 units.\", \"evidence_chunk_ids\": [\"chk_agent_01_t21_qq_22_0\", \"chk_agent_01_t17_qq_18_1\", \"chk_agent_01_t2_qq_3_1\", \"chk_agent_01_t9_qq_10_1\", \"chk_evt_000149\"]}", "p_toks": 391, "c_toks": 98, "dt": 3.390577793121338}

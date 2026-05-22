@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"The available capacity is calculated as max(0, capacity - occupancy). Given the forecast demand exceeds the nominal capacity, the available capacity is 0.\", \"evidence_chunk_ids\": [\"chk_agent_02_t5_qq_6_2\", \"chk_evt_000155\", \"chk_evt_000091\"]}", "p_toks": 371, "c_toks": 76, "dt": 4.69277286529541}

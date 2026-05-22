@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"no\", \"rationale\": \"Warehouse Beta's capacity is not provided in the retrieved context, but warehouse Alpha's capacity is stated as 1084 units, which does not pertain to Beta.\", \"evidence_chunk_ids\": [\"chk_pz_1_94476\"]}", "p_toks": 187, "c_toks": 61, "dt": 1.311061143875122}

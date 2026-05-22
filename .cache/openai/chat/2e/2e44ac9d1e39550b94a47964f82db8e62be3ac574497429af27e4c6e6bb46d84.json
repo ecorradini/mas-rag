@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"yes\", \"rationale\": \"The forecast demand of 262 units is less than the nominal capacity of 515 units, indicating that Warehouse Beta is within its physical capacity.\", \"evidence_chunk_ids\": [\"chk_agent_01_t15_qq_16_2\", \"chk_agent_04_t15_qq_16_2\", \"chk_evt_000050\"]}", "p_toks": 386, "c_toks": 81, "dt": 1.8730087280273438}

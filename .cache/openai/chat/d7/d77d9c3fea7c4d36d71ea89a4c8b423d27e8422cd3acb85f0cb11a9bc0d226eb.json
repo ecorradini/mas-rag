@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"no\", \"rationale\": \"Warehouse Alpha is reported to be over its physical capacity by multiple agents.\", \"evidence_chunk_ids\": [\"chk_agent_01_t4_qq_5_1\", \"chk_agent_04_t4_qq_5_1\", \"chk_agent_07_t4_qq_5_1\", \"chk_agent_01_t16_qq_17_2\", \"chk_agent_04_t16_qq_17_2\"]}", "p_toks": 358, "c_toks": 102, "dt": 2.3436121940612793}

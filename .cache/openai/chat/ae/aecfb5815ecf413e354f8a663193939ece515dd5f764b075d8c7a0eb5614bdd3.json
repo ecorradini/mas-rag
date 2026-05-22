@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"Warehouse Delta's forecast demand exceeds its maximum capacity, resulting in no available capacity.\", \"evidence_chunk_ids\": [\"chk_agent_02_t29_qq_30_2\", \"chk_agent_02_t31_qq_32_2\", \"chk_agent_02_t32_qq_33_2\", \"chk_agent_02_t41_qq_42_2\", \"chk_evt_000556\"]}", "p_toks": 400, "c_toks": 97, "dt": 2.0035550594329834}

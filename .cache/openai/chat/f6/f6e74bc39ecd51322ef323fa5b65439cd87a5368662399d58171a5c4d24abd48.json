@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"Warehouse Beta is at full capacity, holding 1187 units out of a maximum of 1187, resulting in 0 available capacity.\", \"evidence_chunk_ids\": [\"chk_agent_05_t1_qq_2_0\", \"chk_agent_02_t1_qq_2_0\", \"chk_agent_04_t2_qq_3_1\"]}", "p_toks": 280, "c_toks": 88, "dt": 1.5701136589050293}

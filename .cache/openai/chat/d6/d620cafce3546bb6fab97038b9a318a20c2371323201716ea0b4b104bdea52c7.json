@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"no\", \"rationale\": \"Warehouse Gamma is reported to be over its physical capacity of 343 units.\", \"evidence_chunk_ids\": [\"chk_agent_01_t10_qq_11_1\", \"chk_agent_04_t10_qq_11_1\", \"chk_agent_01_t15_qq_16_1\", \"chk_agent_01_t32_qq_33_1\", \"chk_agent_01_t33_qq_34_0\"]}", "p_toks": 378, "c_toks": 103, "dt": 2.6536760330200195}

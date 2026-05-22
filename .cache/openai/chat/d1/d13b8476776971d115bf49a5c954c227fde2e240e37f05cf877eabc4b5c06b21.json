@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"The evidence indicates that the occupancy exceeds the capacity, leading to 0 units available.\", \"evidence_chunk_ids\": [\"chk_agent_02_t37_qq_38_0\", \"chk_agent_02_t35_qq_36_0\", \"chk_agent_02_t36_qq_37_2\"]}", "p_toks": 376, "c_toks": 77, "dt": 1.4656996726989746}

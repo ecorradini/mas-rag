@@ -1,0 +1,1 @@
+{"text": "{\"answer\": -1, \"rationale\": \"The available capacity reported is inconsistent with the nominal capacity and forecast demand, leading to low confidence.\", \"evidence_chunk_ids\": [\"chk_agent_02_t11_qq_12_0\", \"chk_agent_02_t14_qq_15_0\", \"chk_evt_000203\", \"chk_evt_000211\", \"chk_evt_000499\"]}", "p_toks": 356, "c_toks": 86, "dt": 1.978165864944458}

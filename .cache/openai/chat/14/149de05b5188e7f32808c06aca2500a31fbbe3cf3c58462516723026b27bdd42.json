@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"no\", \"rationale\": \"Warehouse Delta is exceeding its nominal capacity with -1 units available, indicating it is not within its physical capacity.\", \"evidence_chunk_ids\": [\"chk_agent_01_t24_qq_25_0\", \"chk_agent_07_t24_qq_25_0\", \"chk_agent_08_t16_qq_17_1\", \"chk_agent_02_t14_qq_15_2\"]}", "p_toks": 399, "c_toks": 96, "dt": 1.6610822677612305}

@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"The maximum capacity of Warehouse Alpha is 497 units, but the forecast demands exceed this capacity, leading to negative availability.\", \"evidence_chunk_ids\": [\"chk_evt_000258\", \"chk_evt_000299\", \"chk_evt_000107\", \"chk_evt_000033\", \"chk_evt_000141\"]}", "p_toks": 340, "c_toks": 77, "dt": 2.593691349029541}

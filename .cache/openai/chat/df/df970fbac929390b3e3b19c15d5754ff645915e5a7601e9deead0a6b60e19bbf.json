@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"Warehouse Gamma is at full occupancy, thus it has no available capacity.\", \"evidence_chunk_ids\": [\"chk_agent_02_t16_qq_17_2\", \"chk_agent_02_t27_qq_28_2\", \"chk_agent_05_t27_qq_28_2\", \"chk_agent_08_t27_qq_28_2\", \"chk_agent_08_t16_qq_17_2\"]}", "p_toks": 386, "c_toks": 102, "dt": 2.1460747718811035}

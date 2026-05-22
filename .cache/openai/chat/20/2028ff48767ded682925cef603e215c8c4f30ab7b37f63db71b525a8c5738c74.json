@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 179, \"rationale\": \"The most consistent value across multiple sources indicates that Warehouse Gamma has 179 units of capacity available.\", \"evidence_chunk_ids\": [\"chk_agent_02_t12_qq_13_2\", \"chk_agent_05_t12_qq_13_2\", \"chk_agent_05_t14_qq_15_2\", \"chk_agent_05_t18_qq_19_2\"]}", "p_toks": 355, "c_toks": 93, "dt": 2.132935047149658}

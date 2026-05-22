@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"The capacity of warehouse Delta is 100 units and the occupancy is 100 units, resulting in no available capacity.\", \"evidence_chunk_ids\": [\"chk_1\", \"chk_2\"]}", "p_toks": 131, "c_toks": 51, "dt": 1.685351848602295}

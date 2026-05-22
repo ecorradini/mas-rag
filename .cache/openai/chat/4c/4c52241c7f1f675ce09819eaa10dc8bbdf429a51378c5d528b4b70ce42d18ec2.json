@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 252, \"rationale\": \"The nominal capacity is 484 units, and the forecast demand is 232 units. Therefore, available capacity is calculated as 484 - 232 = 252 units.\", \"evidence_chunk_ids\": [\"chk_evt_000044\", \"chk_evt_000084\"]}", "p_toks": 359, "c_toks": 66, "dt": 2.1368162631988525}

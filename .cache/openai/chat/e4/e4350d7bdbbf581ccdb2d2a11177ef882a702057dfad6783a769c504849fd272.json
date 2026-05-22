@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"no\", \"rationale\": \"The latest forecast demand of 259 units exceeds the nominal capacity of 497 units, indicating that Warehouse Alpha is not within its physical capacity.\", \"evidence_chunk_ids\": [\"chk_evt_000001\"]}", "p_toks": 405, "c_toks": 53, "dt": 1.359510898590088}

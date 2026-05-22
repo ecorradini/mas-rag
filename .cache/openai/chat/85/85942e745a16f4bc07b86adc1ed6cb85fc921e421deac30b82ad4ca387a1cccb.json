@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"yes\", \"rationale\": \"The forecast demand of 153 units is less than the nominal capacity of 432 units, indicating that warehouse Delta is within its physical capacity.\", \"evidence_chunk_ids\": [\"chk_evt_000419\", \"chk_evt_000469\", \"chk_evt_000661\", \"chk_evt_000977\"]}", "p_toks": 348, "c_toks": 74, "dt": 1.4697110652923584}

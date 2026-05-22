@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"yes\", \"rationale\": \"Warehouse Alpha is handling 219 units out of a nominal capacity of 420, which is within its physical capacity.\", \"evidence_chunk_ids\": [\"chk_agent_07_t34_qq_35_2\"]}", "p_toks": 195, "c_toks": 55, "dt": 1.523317813873291}

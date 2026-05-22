@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"The maximum forecast demand across the retrieved context exceeds the nominal capacity, indicating that the warehouse is fully occupied or over capacity.\", \"evidence_chunk_ids\": [\"chk_evt_000046\", \"chk_evt_000037\", \"chk_evt_000021\", \"chk_evt_000004\", \"chk_evt_000013\"]}", "p_toks": 340, "c_toks": 77, "dt": 1.639232873916626}

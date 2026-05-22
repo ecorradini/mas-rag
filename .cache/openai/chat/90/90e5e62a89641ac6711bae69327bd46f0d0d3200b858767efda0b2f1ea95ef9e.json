@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 226, \"rationale\": \"The available capacity is calculated as capacity minus occupancy, which is consistent across multiple sources.\", \"evidence_chunk_ids\": [\"chk_agent_02_t68_qq_69_1\", \"chk_agent_02_t87_qq_88_1\", \"chk_evt_000718\", \"chk_evt_000766\"]}", "p_toks": 356, "c_toks": 77, "dt": 1.2965738773345947}

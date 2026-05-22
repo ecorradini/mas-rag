@@ -14,7 +14,7 @@ from ..rag.chroma_store import ChromaStore
 from ..rag.embeddings import OpenAIEmbedder
 from ..simulation.orchestrator import Orchestrator, RunConfig
 from ..tasks.realm_bench import make_task
-from ..utils.openai_client import OpenAIClient, usage
+from ..utils.openai_client import OpenAIClient, TokenBudgetExceeded, billable_usage, usage
 from ..utils.paths import RESULTS_DIR, load_env
 from ..utils.seeding import seed_everything as set_global_seed
 from ..utils.logging import get_logger
@@ -42,6 +42,9 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--evp-override", default="",
                    help="JSON dict of EVP constructor overrides "
                         "(e.g. '{\"kstar_frac\":1.0,\"trusted_authors\":[]}').")
+    p.add_argument("--run-token-cap", type=int, default=0,
+                   help="Maximum billable OpenAI tokens for this single run. "
+                        "0 disables the per-run hard cap.")
     args = p.parse_args(argv)
 
     load_env()
@@ -59,7 +62,7 @@ def main(argv: list[str] | None = None) -> int:
         poison_rate=args.poison_rate,
     )
 
-    client = OpenAIClient()
+    client = OpenAIClient(token_cap=args.run_token_cap)
     embedder = OpenAIEmbedder(client=client)
     store = ChromaStore(path=out_dir / "chroma", name=args.run_id, reset=True)
 
@@ -94,17 +97,39 @@ def main(argv: list[str] | None = None) -> int:
                      n_warehouses=args.n_warehouses)
     orch = Orchestrator(cfg=cfg, store=store, embedder=embedder, agents=agents,
                         defense=defense, patient_zero=pz, task=task)
-    result = orch.run()
+    capped_error = ""
+    try:
+        result = orch.run()
+    except TokenBudgetExceeded as exc:
+        capped_error = str(exc)
+        log.error("Run token cap reached: %s", capped_error)
+        result = orch.result
+        try:
+            orch._fp.close()
+        except Exception:
+            pass
     u = usage()
+    bu = billable_usage()
     result.usage_cost_usd = u.cost_usd()
-    (out_dir / "result.json").write_text(json.dumps(
-        {"config": asdict(cfg), "result": {
+    payload = {"config": asdict(cfg), "result": {
             **{k: v for k, v in result.__dict__.items() if k != "steps"},
             "steps": [s.__dict__ for s in result.steps],
-        }, "usage": u.__dict__}, indent=2, default=str))
+        }, "usage": u.__dict__, "billable_usage": bu.__dict__}
+    if capped_error:
+        payload["capped"] = True
+        payload["cap_error"] = capped_error
+        (out_dir / "capped.json").write_text(json.dumps(payload, indent=2, default=str))
+        print(json.dumps({"run_id": args.run_id, "capped": True,
+                          "cap_error": capped_error,
+                          "billable_tokens": bu.prompt_tokens + bu.completion_tokens
+                          + bu.embedding_tokens}, indent=2))
+        return 2
+    (out_dir / "result.json").write_text(json.dumps(payload, indent=2, default=str))
     print(json.dumps({"run_id": args.run_id, "final_accuracy": result.final_accuracy,
                       "collapsed": result.collapsed, "Tc": result.Tc,
-                      "cost_usd": result.usage_cost_usd}, indent=2))
+                      "cost_usd": result.usage_cost_usd,
+                      "billable_tokens": bu.prompt_tokens + bu.completion_tokens
+                      + bu.embedding_tokens}, indent=2))
     return 0
 
 

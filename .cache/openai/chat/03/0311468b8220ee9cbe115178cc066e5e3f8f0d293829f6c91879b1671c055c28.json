@@ -1,0 +1,1 @@
+{"text": "{\"answer\": -1, \"rationale\": \"The available capacity is reported as -1 due to occupancy exceeding nominal capacity, which raises confidence issues about the data's reliability.\", \"evidence_chunk_ids\": [\"chk_agent_02_t14_qq_15_2\", \"chk_agent_05_t2_qq_3_2\", \"chk_agent_05_t12_qq_13_0\"]}", "p_toks": 383, "c_toks": 85, "dt": 2.1126458644866943}

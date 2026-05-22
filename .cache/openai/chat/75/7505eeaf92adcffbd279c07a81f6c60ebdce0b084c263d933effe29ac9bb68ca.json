@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"Warehouse Alpha's forecast demand exceeds its nominal capacity, resulting in 0 units available.\", \"evidence_chunk_ids\": [\"chk_agent_02_t5_qq_6_2\", \"chk_agent_05_t5_qq_6_2\", \"chk_evt_000009\", \"chk_evt_000033\", \"chk_evt_000017\"]}", "p_toks": 370, "c_toks": 84, "dt": 1.7008051872253418}

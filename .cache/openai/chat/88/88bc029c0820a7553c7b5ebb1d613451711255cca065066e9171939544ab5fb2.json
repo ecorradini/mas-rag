@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 293, \"rationale\": \"The most recent forecast demand for warehouse Beta is 293 units from multiple sources.\", \"evidence_chunk_ids\": [\"chk_agent_00_t7_qq_8_0\", \"chk_agent_03_t7_qq_8_0\", \"chk_agent_06_t7_qq_8_0\", \"chk_agent_00_t8_qq_9_2\"]}", "p_toks": 408, "c_toks": 90, "dt": 1.3227629661560059}

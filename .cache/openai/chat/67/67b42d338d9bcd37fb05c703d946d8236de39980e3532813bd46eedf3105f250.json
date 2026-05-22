@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 162, \"rationale\": \"The most recent demand forecast for warehouse Delta is 162 units from multiple sources.\", \"evidence_chunk_ids\": [\"chk_agent_00_t8_qq_9_1\", \"chk_agent_06_t9_qq_10_2\", \"chk_agent_03_t9_qq_10_2\", \"chk_agent_06_t51_qq_52_1\", \"chk_agent_03_t62_qq_63_2\"]}", "p_toks": 430, "c_toks": 104, "dt": 1.441329002380371}

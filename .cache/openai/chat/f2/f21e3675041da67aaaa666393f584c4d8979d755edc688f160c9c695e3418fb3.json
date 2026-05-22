@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 114, \"rationale\": \"The nominal capacity of warehouse Beta is 346 units, and the highest forecast demand is 232 units. Therefore, available capacity is calculated as 346 - 232 = 114 units.\", \"evidence_chunk_ids\": [\"chk_evt_000018\", \"chk_evt_000068\", \"chk_evt_000102\", \"chk_evt_000086\"]}", "p_toks": 344, "c_toks": 84, "dt": 1.9428420066833496}

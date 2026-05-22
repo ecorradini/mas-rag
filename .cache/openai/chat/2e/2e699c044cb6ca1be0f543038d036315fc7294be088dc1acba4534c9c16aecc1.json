@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 188, \"rationale\": \"Calculated available capacity as max(0, nominal capacity 366 - forecast demand 178).\", \"evidence_chunk_ids\": [\"chk_evt_000179\", \"chk_evt_000203\"]}", "p_toks": 359, "c_toks": 51, "dt": 1.6110117435455322}

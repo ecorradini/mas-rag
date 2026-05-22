@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"no\", \"rationale\": \"Warehouse Beta is currently over capacity as the forecast demand exceeds its physical limits.\", \"evidence_chunk_ids\": [\"chk_agent_01_t41_qq_42_1\", \"chk_agent_01_t2_qq_3_1\", \"chk_evt_000215\", \"chk_evt_000115\", \"chk_evt_000018\"]}", "p_toks": 365, "c_toks": 82, "dt": 1.202308177947998}

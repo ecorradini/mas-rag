@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"The available capacity is determined by the nominal capacity of 489 units, which is exceeded by forecast demand, resulting in 0 units available.\", \"evidence_chunk_ids\": [\"chk_agent_02_t7_qq_8_0\", \"chk_agent_05_t7_qq_8_0\", \"chk_evt_000012\"]}", "p_toks": 381, "c_toks": 81, "dt": 2.2053678035736084}

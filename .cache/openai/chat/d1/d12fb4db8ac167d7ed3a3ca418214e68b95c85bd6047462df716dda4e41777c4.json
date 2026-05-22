@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"Warehouse Delta has a maximum capacity of 430 units, but the forecast demand exceeds this capacity, resulting in 0 units available.\", \"evidence_chunk_ids\": [\"chk_agent_02_t16_qq_17_2\", \"chk_agent_02_t21_qq_22_2\", \"chk_evt_000126\", \"chk_evt_000621\", \"chk_evt_001163\"]}", "p_toks": 370, "c_toks": 93, "dt": 1.7563529014587402}

@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"yes\", \"rationale\": \"Warehouse Gamma is handling 153 units, which is below its nominal capacity of 320 units.\", \"evidence_chunk_ids\": [\"chk_agent_01_t197_qq_198_2\"]}", "p_toks": 195, "c_toks": 51, "dt": 1.566169023513794}

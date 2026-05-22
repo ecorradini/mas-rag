@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"no\", \"rationale\": \"The physical capacity of Warehouse Gamma is 343 units, and the forecast demand is 190 units, which exceeds the capacity.\", \"evidence_chunk_ids\": [\"chk_evt_000027\", \"chk_evt_000003\"]}", "p_toks": 352, "c_toks": 57, "dt": 2.121169328689575}

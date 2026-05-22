@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"no\", \"rationale\": \"Warehouse Delta is reported to be at full capacity with 0 units available, indicating it exceeds its physical capacity.\", \"evidence_chunk_ids\": [\"chk_agent_01_t179_qq_180_0\", \"chk_agent_01_t181_qq_182_0\"]}", "p_toks": 395, "c_toks": 68, "dt": 2.3202319145202637}

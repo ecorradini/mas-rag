@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"Multiple sources indicate that Warehouse Delta has 0 units of capacity available due to demand exceeding its nominal capacity.\", \"evidence_chunk_ids\": [\"chk_agent_02_t19_qq_20_2\", \"chk_agent_02_t20_qq_21_1\", \"chk_agent_02_t62_qq_63_2\"]}", "p_toks": 381, "c_toks": 81, "dt": 1.8086268901824951}

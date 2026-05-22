@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"The total forecast demand for Warehouse Delta exceeds its nominal capacity, leading to negative available capacity.\", \"evidence_chunk_ids\": [\"chk_evt_000078\", \"chk_evt_000150\", \"chk_evt_000046\", \"chk_evt_000054\", \"chk_evt_000086\"]}", "p_toks": 340, "c_toks": 71, "dt": 1.4941139221191406}

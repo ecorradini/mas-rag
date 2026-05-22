@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"There are inconsistent capacity figures for Warehouse Alpha, leading to low confidence in the available capacity.\", \"evidence_chunk_ids\": [\"chk_agent_02_t52_qq_53_0\", \"chk_agent_02_t57_qq_58_1\", \"chk_agent_02_t58_qq_59_2\"]}", "p_toks": 367, "c_toks": 78, "dt": 1.7547860145568848}

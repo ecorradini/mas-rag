@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"The nominal capacity is 366 units, and the forecast demand varies between 164 and 192 units, leading to an occupancy that exceeds capacity. Therefore, available capacity is 0.\", \"evidence_chunk_ids\": [\"chk_evt_000011\", \"chk_evt_000019\", \"chk_evt_000043\"]}", "p_toks": 351, "c_toks": 76, "dt": 1.3745441436767578}

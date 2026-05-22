@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"All retrieved context indicates that Warehouse Beta has 0 units of capacity available.\", \"evidence_chunk_ids\": [\"chk_agent_02_t42_qq_43_1\", \"chk_agent_02_t100_qq_101_0\", \"chk_agent_02_t114_qq_115_0\", \"chk_agent_02_t125_qq_126_2\", \"chk_agent_02_t131_qq_132_0\"]}", "p_toks": 362, "c_toks": 103, "dt": 1.790642261505127}

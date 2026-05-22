@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 160, \"rationale\": \"All retrieved contexts consistently state that Warehouse Delta has 160 units of capacity available.\", \"evidence_chunk_ids\": [\"chk_agent_05_t18_qq_19_0\", \"chk_agent_02_t29_qq_30_2\", \"chk_agent_05_t29_qq_30_2\", \"chk_agent_02_t31_qq_32_2\", \"chk_agent_02_t41_qq_42_2\"]}", "p_toks": 355, "c_toks": 104, "dt": 2.6208949089050293}

@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"The evidence indicates that Warehouse Alpha is over capacity with a forecast demand of 171 units, and other sources confirm it has 0 units available due to demand exceeding its nominal capacity.\", \"evidence_chunk_ids\": [\"chk_agent_02_t3_qq_4_1\", \"chk_agent_02_t4_qq_5_0\"]}", "p_toks": 379, "c_toks": 82, "dt": 2.1534221172332764}

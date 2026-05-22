@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"The nominal capacity of Warehouse Beta is 515 units, and with forecast demands of 262 and 247 units, the occupancy exceeds the capacity, resulting in no available capacity.\", \"evidence_chunk_ids\": [\"chk_evt_000050\", \"chk_evt_000026\"]}", "p_toks": 352, "c_toks": 67, "dt": 1.9450218677520752}

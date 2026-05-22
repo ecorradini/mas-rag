@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"The nominal capacity is 497 units and the forecast demand is 301 units, indicating that the warehouse is at full capacity with no available units.\", \"evidence_chunk_ids\": [\"chk_agent_04_t1_qq_2_0\", \"chk_agent_04_t3_qq_4_0\"]}", "p_toks": 376, "c_toks": 75, "dt": 1.3636457920074463}

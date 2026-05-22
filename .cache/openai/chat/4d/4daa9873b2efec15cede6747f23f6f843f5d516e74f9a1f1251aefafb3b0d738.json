@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 305, \"rationale\": \"The available capacity after accounting for forecast demand is 305 units, which is consistent across multiple sources.\", \"evidence_chunk_ids\": [\"chk_agent_02_t12_qq_13_0\", \"chk_evt_000066\"]}", "p_toks": 357, "c_toks": 59, "dt": 2.0476789474487305}

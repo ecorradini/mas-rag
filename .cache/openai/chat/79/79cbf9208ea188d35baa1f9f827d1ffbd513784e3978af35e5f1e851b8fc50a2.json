@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"Multiple sources indicate that Warehouse Alpha has 0 units of capacity available, suggesting a consistent occupancy issue.\", \"evidence_chunk_ids\": [\"chk_agent_02_t11_qq_12_1\", \"chk_agent_02_t35_qq_36_2\", \"chk_agent_02_t49_qq_50_2\"]}", "p_toks": 360, "c_toks": 80, "dt": 2.398552894592285}

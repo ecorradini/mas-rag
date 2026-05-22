@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"Warehouse Delta has exceeded its nominal capacity, resulting in 0 units of available capacity.\", \"evidence_chunk_ids\": [\"chk_agent_02_t12_qq_13_0\", \"chk_agent_08_t12_qq_13_0\", \"chk_agent_02_t14_qq_15_2\", \"chk_agent_05_t14_qq_15_2\", \"chk_agent_08_t23_qq_24_1\"]}", "p_toks": 394, "c_toks": 105, "dt": 3.482135057449341}

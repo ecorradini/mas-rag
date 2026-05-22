@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"The evidence indicates that the occupancy exceeds the nominal capacity, leading to a conclusion of 0 units available.\", \"evidence_chunk_ids\": [\"chk_agent_02_t15_qq_16_2\", \"chk_agent_02_t33_qq_34_2\", \"chk_agent_02_t46_qq_47_2\"]}", "p_toks": 373, "c_toks": 81, "dt": 1.8061800003051758}

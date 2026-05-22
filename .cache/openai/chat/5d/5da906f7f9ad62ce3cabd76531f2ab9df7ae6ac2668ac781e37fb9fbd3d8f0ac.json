@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"Warehouse Gamma's forecast demand exceeds its maximum capacity, resulting in no available capacity.\", \"evidence_chunk_ids\": [\"chk_agent_05_t11_qq_12_0\", \"chk_agent_05_t108_qq_109_2\", \"chk_agent_02_t141_qq_142_2\", \"chk_agent_02_t25_qq_26_0\", \"chk_evt_000203\"]}", "p_toks": 400, "c_toks": 97, "dt": 2.3912339210510254}

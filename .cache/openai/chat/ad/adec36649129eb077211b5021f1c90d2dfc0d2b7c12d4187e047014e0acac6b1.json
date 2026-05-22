@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"no\", \"rationale\": \"Warehouse Alpha is reported to be over its physical capacity of 328 units.\", \"evidence_chunk_ids\": [\"chk_agent_01_t46_qq_47_2\", \"chk_agent_04_t88_qq_89_1\", \"chk_agent_01_t116_qq_117_1\", \"chk_agent_04_t116_qq_117_1\"]}", "p_toks": 374, "c_toks": 89, "dt": 2.3670029640197754}

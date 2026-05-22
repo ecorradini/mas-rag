@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"no\", \"rationale\": \"Warehouse Gamma is reported to be over its physical capacity due to forecast demand exceeding nominal capacity.\", \"evidence_chunk_ids\": [\"chk_agent_01_t6_qq_7_0\", \"chk_agent_01_t10_qq_11_1\", \"chk_agent_01_t17_qq_18_1\", \"chk_agent_01_t11_qq_12_2\", \"chk_evt_000143\"]}", "p_toks": 383, "c_toks": 99, "dt": 2.049999952316284}

@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"Warehouse Beta is currently exceeding its physical capacity, indicating that the available capacity is less than zero.\", \"evidence_chunk_ids\": [\"chk_agent_07_t2_qq_3_1\", \"chk_agent_01_t2_qq_3_1\"]}", "p_toks": 394, "c_toks": 65, "dt": 1.8370959758758545}

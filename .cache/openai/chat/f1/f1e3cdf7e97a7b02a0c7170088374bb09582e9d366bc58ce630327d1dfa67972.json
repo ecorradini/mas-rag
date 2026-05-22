@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"The total forecast demand for Warehouse Gamma exceeds its nominal capacity of 320 units, leading to no available capacity.\", \"evidence_chunk_ids\": [\"chk_evt_000149\", \"chk_evt_000175\", \"chk_evt_000191\", \"chk_evt_000108\", \"chk_evt_000363\"]}", "p_toks": 340, "c_toks": 75, "dt": 2.1036410331726074}

@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"Warehouse Delta has exceeded its maximum capacity, resulting in 0 units available.\", \"evidence_chunk_ids\": [\"chk_agent_02_t179_qq_180_1\", \"chk_agent_05_t179_qq_180_1\", \"chk_agent_08_t179_qq_180_1\", \"chk_agent_08_t163_qq_164_1\", \"chk_agent_02_t163_qq_164_1\"]}", "p_toks": 405, "c_toks": 103, "dt": 2.7027318477630615}

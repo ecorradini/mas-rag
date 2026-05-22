@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 196, \"rationale\": \"The available capacity is calculated as max(0, capacity - occupancy). Here, occupancy is the forecast demand of 224 units and capacity is 420 units, resulting in 420 - 224 = 196 units available.\", \"evidence_chunk_ids\": [\"chk_evt_000043\"]}", "p_toks": 172, "c_toks": 70, "dt": 1.2837638854980469}

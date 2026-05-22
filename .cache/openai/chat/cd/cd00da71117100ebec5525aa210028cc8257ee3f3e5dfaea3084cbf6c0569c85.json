@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"Warehouse Alpha is at full capacity with a nominal capacity of 497 units, resulting in 0 units available.\", \"evidence_chunk_ids\": [\"chk_agent_05_t5_qq_6_2\", \"chk_agent_08_t5_qq_6_2\", \"chk_agent_08_t59_qq_60_0\", \"chk_agent_08_t60_qq_61_0\", \"chk_agent_08_t62_qq_63_2\"]}", "p_toks": 422, "c_toks": 110, "dt": 4.963581085205078}

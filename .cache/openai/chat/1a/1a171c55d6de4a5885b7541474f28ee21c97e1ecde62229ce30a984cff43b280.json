@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"no\", \"rationale\": \"Warehouse Delta is currently at full occupancy with 0 units of capacity available, which is below its nominal capacity of 484 units.\", \"evidence_chunk_ids\": [\"chk_agent_02_t15_qq_16_0\", \"chk_agent_02_t16_qq_17_1\", \"chk_agent_02_t23_qq_24_1\", \"chk_evt_000135\"]}", "p_toks": 370, "c_toks": 93, "dt": 1.91975998878479}

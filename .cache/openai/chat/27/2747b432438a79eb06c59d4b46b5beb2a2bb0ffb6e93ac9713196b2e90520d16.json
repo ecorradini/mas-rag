@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"Warehouse Alpha is currently over its physical capacity, resulting in 0 units of available capacity.\", \"evidence_chunk_ids\": [\"chk_agent_02_t3_qq_4_1\", \"chk_agent_05_t3_qq_4_1\", \"chk_agent_08_t3_qq_4_1\"]}", "p_toks": 376, "c_toks": 78, "dt": 1.6740148067474365}

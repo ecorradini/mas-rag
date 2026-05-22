@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 198, \"rationale\": \"The available capacity is calculated as max(0, capacity - occupancy). With a nominal capacity of 432 units and a forecast demand of 234 units, the available capacity is 432 - 234 = 198 units.\", \"evidence_chunk_ids\": [\"chk_evt_000052\", \"chk_evt_000036\"]}", "p_toks": 359, "c_toks": 77, "dt": 0.998039960861206}

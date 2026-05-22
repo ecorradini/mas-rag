@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"no\", \"rationale\": \"The first authoritative capacity statement indicates that warehouse Alpha has a nominal capacity of 368 units, and the total demand exceeds this capacity, resulting in 0 units available.\", \"evidence_chunk_ids\": [\"chk_agent_02_t24_qq_25_2\", \"chk_evt_000113\"]}", "p_toks": 383, "c_toks": 72, "dt": 1.314936876296997}

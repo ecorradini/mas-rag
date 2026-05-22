@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"yes\", \"rationale\": \"The current demand of 262 units is less than the nominal capacity of 515 units, indicating that warehouse Beta is within its physical capacity.\", \"evidence_chunk_ids\": [\"chk_agent_01_t15_qq_16_2\"]}", "p_toks": 199, "c_toks": 60, "dt": 1.4504470825195312}

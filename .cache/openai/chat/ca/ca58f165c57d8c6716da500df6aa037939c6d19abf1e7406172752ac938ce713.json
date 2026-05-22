@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 15, \"rationale\": \"All retrieved contexts consistently state that Warehouse Beta has 15 units of capacity available.\", \"evidence_chunk_ids\": [\"chk_agent_05_t57_qq_58_2\", \"chk_agent_02_t63_qq_64_1\", \"chk_agent_08_t63_qq_64_1\", \"chk_agent_02_t68_qq_69_2\", \"chk_agent_08_t68_qq_69_2\"]}", "p_toks": 355, "c_toks": 104, "dt": 1.7322511672973633}

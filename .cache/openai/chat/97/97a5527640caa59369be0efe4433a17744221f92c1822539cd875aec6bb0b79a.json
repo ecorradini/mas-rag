@@ -1,0 +1,1 @@
+{"text": "{\"answer\": -12, \"rationale\": \"The evidence indicates that Warehouse Beta is exceeding its nominal capacity of 578 units by 12 due to forecast demand, resulting in negative available capacity.\", \"evidence_chunk_ids\": [\"chk_agent_02_t6_qq_7_2\", \"chk_agent_01_t2_qq_3_1\"]}", "p_toks": 412, "c_toks": 75, "dt": 1.2354040145874023}

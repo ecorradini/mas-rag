@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 183, \"rationale\": \"The most recent demand_forecast statement for warehouse Beta is 183 units from chunk id chk_evt_000137.\", \"evidence_chunk_ids\": [\"chk_evt_000137\"]}", "p_toks": 392, "c_toks": 48, "dt": 1.0719847679138184}

@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 169, \"rationale\": \"The nominal capacity is 497 units and the current demand is 328 units, so available capacity is calculated as max(0, 497 - 328).\", \"evidence_chunk_ids\": [\"chk_evt_000033\", \"chk_agent_01_t1_qq_2_0\"]}", "p_toks": 412, "c_toks": 72, "dt": 1.2812771797180176}

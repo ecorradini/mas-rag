@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"no\", \"rationale\": \"The physical capacity of Warehouse Beta is 578 units, and the forecast demand exceeds this capacity.\", \"evidence_chunk_ids\": [\"chk_evt_000002\", \"chk_evt_000018\", \"chk_evt_000010\"]}", "p_toks": 356, "c_toks": 58, "dt": 2.0662739276885986}

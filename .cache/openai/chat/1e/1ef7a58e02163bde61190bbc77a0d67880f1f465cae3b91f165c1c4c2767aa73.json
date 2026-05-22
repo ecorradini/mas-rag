@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 248, \"rationale\": \"Available capacity is calculated as max(0, capacity - occupancy) = max(0, 484 - 236) = 248.\", \"evidence_chunk_ids\": [\"chk_agent_01_t24_qq_25_0\"]}", "p_toks": 187, "c_toks": 60, "dt": 1.260167121887207}

@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 288, \"rationale\": \"The latest demand_forecast statement indicates a demand of 288.\", \"evidence_chunk_ids\": [\"chk_agent_00_t28_qq_29_1\", \"chk_agent_00_t33_qq_34_1\", \"chk_agent_00_t75_qq_76_0\", \"chk_agent_00_t87_qq_88_0\", \"chk_agent_00_t105_qq_106_1\"]}", "p_toks": 413, "c_toks": 101, "dt": 2.6851389408111572}

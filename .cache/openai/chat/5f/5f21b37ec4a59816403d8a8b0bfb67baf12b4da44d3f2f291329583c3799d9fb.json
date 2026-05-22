@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 201, \"rationale\": \"Warehouse Gamma has a nominal capacity of 352 units and forecast demand of 151 and 166 units, leading to an occupancy of 317 units. Therefore, available capacity is max(0, 352 - 317) = 35 units.\", \"evidence_chunk_ids\": [\"chk_evt_000003\", \"chk_evt_000012\"]}", "p_toks": 347, "c_toks": 82, "dt": 2.0280911922454834}

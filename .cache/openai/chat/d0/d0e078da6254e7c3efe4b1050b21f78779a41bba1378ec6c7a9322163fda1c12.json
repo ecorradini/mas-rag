@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"no\", \"rationale\": \"Warehouse Delta is reported to be over capacity with 0 units available.\", \"evidence_chunk_ids\": [\"chk_agent_01_t13_qq_14_1\", \"chk_agent_01_t21_qq_22_1\", \"chk_agent_04_t28_qq_29_1\", \"chk_agent_01_t34_qq_35_1\", \"chk_agent_04_t34_qq_35_1\"]}", "p_toks": 373, "c_toks": 102, "dt": 2.070927143096924}

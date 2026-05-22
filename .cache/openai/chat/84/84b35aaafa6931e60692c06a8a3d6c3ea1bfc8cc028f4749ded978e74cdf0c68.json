@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"Warehouse Beta has 0 units of capacity available as forecast demand exceeds its nominal capacity of 455 units.\", \"evidence_chunk_ids\": [\"chk_agent_05_t83_qq_84_2\", \"chk_agent_02_t4_qq_5_0\"]}", "p_toks": 382, "c_toks": 67, "dt": 2.0686981678009033}

@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"yes\", \"rationale\": \"Warehouse Delta has a forecast demand of 154 units, which is below its nominal capacity of 432 units.\", \"evidence_chunk_ids\": [\"chk_evt_000170\"]}", "p_toks": 384, "c_toks": 47, "dt": 1.1857490539550781}

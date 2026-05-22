@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"Multiple sources indicate that Warehouse Gamma is fully occupied, leading to 0 units of available capacity.\", \"evidence_chunk_ids\": [\"chk_agent_02_t26_qq_27_0\", \"chk_agent_05_t26_qq_27_0\", \"chk_agent_05_t24_qq_25_2\", \"chk_agent_08_t24_qq_25_2\"]}", "p_toks": 385, "c_toks": 93, "dt": 2.6718637943267822}

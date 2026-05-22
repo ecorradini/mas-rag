@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 94, \"rationale\": \"Capacity is 256 units and current occupancy due to demand is 162 units, so available capacity is 256 - 162 = 94 units.\", \"evidence_chunk_ids\": [\"chk_agent_02_t15_qq_16_1\", \"chk_agent_05_t15_qq_16_1\", \"chk_agent_00_t10_qq_11_1\"]}", "p_toks": 356, "c_toks": 90, "dt": 1.5611772537231445}

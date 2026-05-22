@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"Demand exceeds nominal capacity, resulting in no available capacity.\", \"evidence_chunk_ids\": [\"chk_agent_02_t14_qq_15_0\", \"chk_agent_02_t25_qq_26_0\", \"chk_agent_02_t27_qq_28_2\", \"chk_evt_000179\", \"chk_evt_000203\"]}", "p_toks": 367, "c_toks": 85, "dt": 2.608160972595215}

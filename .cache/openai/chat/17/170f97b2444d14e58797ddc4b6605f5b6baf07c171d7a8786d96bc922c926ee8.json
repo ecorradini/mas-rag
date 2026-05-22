@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"yes\", \"rationale\": \"The forecast demand for Warehouse Alpha is 271 units, which is less than its nominal capacity of 497 units.\", \"evidence_chunk_ids\": [\"chk_evt_000009\", \"chk_evt_000001\"]}", "p_toks": 348, "c_toks": 55, "dt": 1.333531141281128}

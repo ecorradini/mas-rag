@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"no\", \"rationale\": \"Forecast demand exceeds nominal capacity, indicating that the warehouse is not within its physical capacity.\", \"evidence_chunk_ids\": [\"chk_agent_01_t15_qq_16_2\", \"chk_agent_01_t49_qq_50_1\"]}", "p_toks": 396, "c_toks": 63, "dt": 2.792208194732666}

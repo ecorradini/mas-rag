@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"The evidence indicates that Warehouse Gamma has 0 units of capacity available due to forecast demand exceeding its nominal capacity.\", \"evidence_chunk_ids\": [\"chk_agent_02_t151_qq_152_2\", \"chk_agent_02_t8_qq_9_0\", \"chk_evt_000690\"]}", "p_toks": 364, "c_toks": 75, "dt": 1.2654318809509277}

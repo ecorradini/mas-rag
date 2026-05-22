@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 169, \"rationale\": \"Warehouse Gamma has a nominal capacity of 332 units and a forecast demand of 163 units, resulting in an available capacity of 169 units (332 - 163).\", \"evidence_chunk_ids\": [\"chk_evt_000379\", \"chk_evt_000507\", \"chk_evt_000531\", \"chk_evt_000547\", \"chk_evt_000819\"]}", "p_toks": 340, "c_toks": 88, "dt": 2.41304087638855}

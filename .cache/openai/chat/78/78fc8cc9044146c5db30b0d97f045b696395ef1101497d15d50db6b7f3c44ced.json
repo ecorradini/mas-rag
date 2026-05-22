@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"The available capacity is calculated as max(0, capacity - occupancy). The context indicates that forecast demand exceeds the working capacity, leading to 0 units available.\", \"evidence_chunk_ids\": [\"chk_agent_02_t3_qq_4_1\", \"chk_agent_02_t9_qq_10_0\"]}", "p_toks": 385, "c_toks": 78, "dt": 1.971527099609375}

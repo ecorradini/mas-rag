@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"no\", \"rationale\": \"The current forecast demand at warehouse Delta is 295, which exceeds its physical capacity.\", \"evidence_chunk_ids\": [\"chk_agent_06_t82_qq_83_0\", \"chk_agent_00_t94_qq_95_2\", \"chk_agent_06_t94_qq_95_2\", \"chk_agent_03_t108_qq_109_1\", \"chk_agent_06_t108_qq_109_1\"]}", "p_toks": 363, "c_toks": 105, "dt": 1.7432770729064941}

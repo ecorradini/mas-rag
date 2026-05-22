@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 142, \"rationale\": \"The nominal capacity of Warehouse Alpha is 328 units. The highest forecast demand is 186 units, so available capacity is calculated as max(0, 328 - 186) = 142 units.\", \"evidence_chunk_ids\": [\"chk_evt_001434\"]}", "p_toks": 340, "c_toks": 66, "dt": 2.20552396774292}

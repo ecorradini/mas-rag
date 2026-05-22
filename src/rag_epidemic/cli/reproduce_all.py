@@ -1,4 +1,4 @@
-"""`rage-repro` — reproduce the experimental grid with daily token cap+resume.
+"""`rage-repro` — reproduce the experimental grid with command token cap+resume.
 
 Key features
 ------------
@@ -6,12 +6,12 @@ Key features
 * **Per-run persistence**: budget state is updated *after every run* — if you
   Ctrl-C mid-grid you can re-run the exact same command and continue without
   losing the day's accounting.
-* **Daily token cap**: stops cleanly once the cap is approached, leaving the
-  current run intact. Re-running the command the next day automatically
-  resets the daily counter.
+* **Command token cap**: each invocation starts with zero used tokens and
+  refuses to start the next configuration when ``used_this_command + estimate``
+  would exceed the cap. The remaining budget is also passed into ``rage-run``
+  as a hard in-run guard.
 * **EMA cost estimation**: predicts the next run's cost from a 4-EMA over
-  recently completed runs of the same defense; refuses to start a run whose
-  predicted cost would breach the cap.
+  recently completed runs of the same defense.
 """
 from __future__ import annotations
 
@@ -25,7 +25,7 @@ from itertools import product
 from pathlib import Path
 
 from ..defense.factory import ALL_DEFENSES
-from ..utils.paths import RESULTS_DIR
+from ..utils.paths import EXPERIMENTS_DIR, RESULTS_DIR
 
 
 def _run(cmd: list[str]) -> int:
@@ -63,8 +63,20 @@ def _rollover_if_new_day(state: dict) -> dict:
 def _read_run_tokens(result_path: Path) -> int:
     try:
         obj = json.loads(result_path.read_text())
+        bu = obj.get("billable_usage", {})
+        billable = (
+            int(bu.get("prompt_tokens", 0))
+            + int(bu.get("completion_tokens", 0))
+            + int(bu.get("embedding_tokens", 0))
+        )
+        if billable:
+            return billable
         u = obj.get("usage", {})
-        return int(u.get("prompt_tokens", 0)) + int(u.get("completion_tokens", 0))
+        return (
+            int(u.get("prompt_tokens", 0))
+            + int(u.get("completion_tokens", 0))
+            + int(u.get("embedding_tokens", 0))
+        )
     except Exception:
         return 0
 
@@ -92,9 +104,22 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--N_A", type=int, nargs="+", default=[6])
     p.add_argument("--difficulties", nargs="+", default=["medium"])
     p.add_argument("--pz-template-only", action="store_true")
+    p.add_argument("--token-cap", type=int, default=0,
+                   help="Maximum billable OpenAI tokens for this command invocation. "
+                        "The counter starts at 0 when the command starts.")
+    p.add_argument("--command-token-cap", type=int, default=0,
+                   help="Alias for --token-cap.")
+    p.add_argument("--run-token-cap", type=int, default=0,
+                   help="Backward-compatible alias for --token-cap in rage-repro. "
+                        "Use rage-run directly for a true single-run hard cap.")
     p.add_argument("--daily-token-cap", type=int, default=9_500_000,
-                   help="Stop cleanly once predicted day-total > cap. "
-                        "Default 9.5M leaves headroom under the 10M/day free tier.")
+                   help="Backward-compatible alias for --token-cap. It is no longer "
+                        "a daily stopping budget.")
+    p.add_argument("--token-cap-mode", choices=["enforce", "warn", "off"], default="enforce",
+                   help="Command budget behavior: enforce stops before predicted over-cap "
+                        "runs and hard-caps the active rage-run with the remaining budget; "
+                        "warn prints the warning but continues; off ignores the cap while "
+                        "still saving usage for resume/accounting.")
     p.add_argument("--budget-state-file", default="",
                    help="JSON file persisting the day's token usage. "
                         "Default: experiments/.budget_state.json")
@@ -110,7 +135,10 @@ def main(argv: list[str] | None = None) -> int:
         args.N_A = [3, 6, 9]
         args.difficulties = ["easy", "medium", "hard"]
 
-    state_path = Path(args.budget_state_file or "experiments/.budget_state.json")
+    state_path = Path(args.budget_state_file) if args.budget_state_file else (
+        EXPERIMENTS_DIR / ".budget_state.json"
+    )
+    state_path = state_path.expanduser().resolve()
     if args.reset_budget and state_path.exists():
         state_path.unlink()
     state = _load_state(state_path)
@@ -119,9 +147,18 @@ def main(argv: list[str] | None = None) -> int:
 
     subdir = args.results_subdir or args.mode
     grid = list(product(args.defenses, args.seeds, args.N_A, args.difficulties))
+    command_cap = (
+        args.token_cap
+        or args.command_token_cap
+        or args.run_token_cap
+        or args.daily_token_cap
+    )
+    cap_enabled = args.token_cap_mode != "off" and command_cap > 0
+    cap_label = f"{command_cap:,}/command ({args.token_cap_mode})" if cap_enabled else "off"
+    command_used = 0
     print(f"[plan] {len(grid)} configurations | mode={args.mode} | T={args.T} | "
-          f"day={state['date']} | used={state['tokens_used']:,} | "
-          f"cap={args.daily_token_cap:,}")
+          f"accounting-day={state['date']} | accounted={state['tokens_used']:,} | "
+          f"cap={cap_label}")
 
     n_done, n_skipped, n_capped = 0, 0, 0
     for defense, seed, n_a, diff in grid:
@@ -135,37 +172,64 @@ def main(argv: list[str] | None = None) -> int:
         state = _rollover_if_new_day(state)
 
         est = _ema_estimate(state, defense)
-        projected = state["tokens_used"] + est
-        if projected > args.daily_token_cap:
-            print(f"[cap] would-be projected={projected:,} > cap "
-                  f"{args.daily_token_cap:,}. Stopping cleanly; resume tomorrow.")
-            n_capped += 1
-            break
+        projected = command_used + est
+        if cap_enabled and projected > command_cap:
+            msg = (f"[cap] command-used={command_used:,} + estimated-run={est:,} "
+                   f"=> {projected:,} > command cap {command_cap:,} before {run_id}.")
+            if args.token_cap_mode == "enforce":
+                print(f"{msg} Stopping cleanly; raise --token-cap or use "
+                      f"--token-cap-mode=warn/off if you want to proceed.")
+                n_capped += 1
+                break
+            print(f"{msg} Continuing because --token-cap-mode=warn.")
 
-        print(f"[run] {run_id} | est~{est:,} tok | day-used "
-              f"{state['tokens_used']:,}/{args.daily_token_cap:,}")
+        used_label = f"{state['tokens_used']:,} accounted today"
+        remaining = max(command_cap - command_used, 0) if cap_enabled else 0
+        remaining_label = f"{remaining:,}" if cap_enabled else "off"
+        print(f"[run] {run_id} | est~{est:,} tok | command-used "
+              f"{command_used:,}/{cap_label} | remaining={remaining_label} | {used_label}")
         cmd = [sys.executable, "-m", "rag_epidemic.cli.run_cli",
                "--run-id", run_id, "--defense", defense,
                "--seed", str(seed), "--T", str(args.T),
                "--N_A", str(n_a), "--difficulty", diff,
                "--results-dir", str(out_dir)]
+        if cap_enabled and args.token_cap_mode == "enforce":
+            cmd.extend(["--run-token-cap", str(remaining)])
         if args.pz_template_only:
             cmd.append("--pz-template-only")
         rc = _run(cmd)
+        result_path = out_dir / "result.json"
+        capped_path = out_dir / "capped.json"
+        accounting_path = result_path if result_path.exists() else capped_path
         if rc != 0:
+            if rc == 2 and capped_path.exists():
+                actual = _read_run_tokens(capped_path)
+                state["tokens_used"] += actual
+                command_used += actual
+                state["runs"].append({"run_id": run_id, "defense": defense,
+                                     "tokens": actual, "capped": True,
+                                     "ts": _dt.datetime.now().isoformat()})
+                _save_state(state_path, state)
+                n_capped += 1
+                print(f"[cap] {run_id} hit in-run command cap | used {actual:,} | "
+                      f"command-total {command_used:,}/{command_cap:,}")
+                break
             print(f"[fail] {run_id} exited {rc}")
             continue
         # commit actual usage
-        actual = _read_run_tokens(out_dir / "result.json")
+        actual = _read_run_tokens(accounting_path)
         state["tokens_used"] += actual
+        command_used += actual
         state["runs"].append({"run_id": run_id, "defense": defense,
                               "tokens": actual, "ts": _dt.datetime.now().isoformat()})
         _save_state(state_path, state)
         n_done += 1
-        print(f"[ok]  {run_id} | used {actual:,} | day-total {state['tokens_used']:,}")
+        print(f"[ok]  {run_id} | used {actual:,} | command-total "
+              f"{command_used:,}/{command_cap:,} | day-accounted {state['tokens_used']:,}")
 
     print(f"[done] completed={n_done} skipped={n_skipped} capped={n_capped} "
-          f"day-total={state['tokens_used']:,}")
+          f"command-total={command_used:,}/{command_cap:,} "
+          f"day-accounted={state['tokens_used']:,}")
     return 0
 
 

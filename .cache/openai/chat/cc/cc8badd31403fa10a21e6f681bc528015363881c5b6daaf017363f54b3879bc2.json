@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 176, \"rationale\": \"The nominal capacity of Warehouse Gamma is 352 units, and the highest forecast demand is 176 units. Therefore, the available capacity is calculated as max(0, 352 - 176) = 176.\", \"evidence_chunk_ids\": [\"chk_evt_000059\"]}", "p_toks": 340, "c_toks": 68, "dt": 1.8356897830963135}

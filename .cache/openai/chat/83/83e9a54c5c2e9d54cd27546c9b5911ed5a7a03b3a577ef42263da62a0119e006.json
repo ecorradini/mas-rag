@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 1173, \"rationale\": \"Warehouse Beta has a working capacity of 1356 units and forecast demands of 184 and 329 units, totaling 513 units of demand. Therefore, available capacity is 1356 - 513 = 843 units.\", \"evidence_chunk_ids\": [\"chk_pz_3_325213\", \"chk_evt_000026\", \"chk_evt_000010\"]}", "p_toks": 352, "c_toks": 88, "dt": 1.16823410987854}

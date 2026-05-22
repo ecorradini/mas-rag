@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"The occupancy due to forecast demand exceeds the maximum capacity, resulting in no available units.\", \"evidence_chunk_ids\": [\"chk_agent_02_t12_qq_13_1\", \"chk_evt_000388\", \"chk_evt_000588\"]}", "p_toks": 361, "c_toks": 63, "dt": 1.6385059356689453}

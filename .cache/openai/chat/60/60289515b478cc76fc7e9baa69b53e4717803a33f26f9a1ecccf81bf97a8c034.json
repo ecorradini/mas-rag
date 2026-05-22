@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"The maximum forecast demand across the retrieved context exceeds the nominal capacity, leading to a negative available capacity.\", \"evidence_chunk_ids\": [\"chk_evt_000254\", \"chk_evt_000078\", \"chk_evt_000150\", \"chk_evt_000206\", \"chk_evt_000222\"]}", "p_toks": 340, "c_toks": 73, "dt": 1.8104431629180908}

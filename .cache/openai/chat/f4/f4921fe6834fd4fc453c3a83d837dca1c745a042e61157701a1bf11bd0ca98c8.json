@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 759, \"rationale\": \"The working capacity of warehouse Alpha is 936 units, and the forecast demand is 177 units. Therefore, available capacity is calculated as max(0, 936 - 177) = 759 units.\", \"evidence_chunk_ids\": [\"chk_pz_3_619869\", \"chk_evt_000001\"]}", "p_toks": 348, "c_toks": 77, "dt": 1.5629429817199707}

@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"yes\", \"rationale\": \"All retrieved context confirms that Warehouse Alpha is within its physical capacity of 497 units.\", \"evidence_chunk_ids\": [\"chk_agent_01_t12_qq_13_2\", \"chk_agent_01_t39_qq_40_0\", \"chk_agent_04_t39_qq_40_0\", \"chk_agent_04_t42_qq_43_2\", \"chk_agent_01_t50_qq_51_0\"]}", "p_toks": 378, "c_toks": 105, "dt": 2.634381055831909}

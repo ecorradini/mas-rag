@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"yes\", \"rationale\": \"The forecast demand for Warehouse Beta is consistently below its nominal capacity of 578 units.\", \"evidence_chunk_ids\": [\"chk_evt_000002\", \"chk_evt_000082\", \"chk_evt_000074\", \"chk_evt_000066\", \"chk_evt_000124\"]}", "p_toks": 348, "c_toks": 70, "dt": 1.8933892250061035}

@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"Warehouse Beta has no available capacity due to forecast demand exceeding its working capacity.\", \"evidence_chunk_ids\": [\"chk_agent_02_t3_qq_4_1\", \"chk_agent_05_t3_qq_4_1\", \"chk_agent_08_t3_qq_4_1\", \"chk_agent_08_t74_qq_75_2\"]}", "p_toks": 400, "c_toks": 89, "dt": 1.5696029663085938}

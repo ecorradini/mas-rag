@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"no\", \"rationale\": \"The forecast demand of 294 units exceeds the nominal capacity of 515 units, indicating that the warehouse is not within its physical capacity.\", \"evidence_chunk_ids\": [\"chk_evt_000239\", \"chk_evt_000590\", \"chk_evt_000622\"]}", "p_toks": 348, "c_toks": 66, "dt": 1.3765740394592285}

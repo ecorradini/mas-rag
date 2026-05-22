@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"The occupancy exceeds the nominal capacity, leading to no available capacity.\", \"evidence_chunk_ids\": [\"chk_agent_02_t5_qq_6_2\", \"chk_evt_000155\", \"chk_evt_000395\"]}", "p_toks": 371, "c_toks": 59, "dt": 3.982712984085083}

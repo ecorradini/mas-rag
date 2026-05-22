@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"no\", \"rationale\": \"Warehouse Delta is reported multiple times as not within its physical capacity.\", \"evidence_chunk_ids\": [\"chk_agent_01_t2_qq_3_1\", \"chk_agent_01_t6_qq_7_1\", \"chk_agent_01_t18_qq_19_0\", \"chk_agent_01_t20_qq_21_2\", \"chk_agent_01_t21_qq_22_2\"]}", "p_toks": 383, "c_toks": 101, "dt": 3.6755151748657227}

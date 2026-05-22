@@ -1,0 +1,1 @@
+{"text": "{\"answer\": -1, \"rationale\": \"Inconsistent capacity information for warehouse Beta; one source indicates 114 units available while others indicate -118 units, leading to low confidence.\", \"evidence_chunk_ids\": [\"chk_agent_05_t11_qq_12_2\", \"chk_agent_08_t13_qq_14_2\", \"chk_agent_05_t13_qq_14_2\"]}", "p_toks": 374, "c_toks": 87, "dt": 2.1116220951080322}

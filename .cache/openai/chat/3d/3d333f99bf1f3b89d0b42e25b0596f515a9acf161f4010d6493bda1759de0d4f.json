@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 1356, \"rationale\": \"The capacity of warehouse Beta is stated as 1356 units with no occupancy mentioned, so the available capacity is equal to its total capacity.\", \"evidence_chunk_ids\": [\"chk_pz_3_325213\"]}", "p_toks": 271, "c_toks": 57, "dt": 2.356868028640747}

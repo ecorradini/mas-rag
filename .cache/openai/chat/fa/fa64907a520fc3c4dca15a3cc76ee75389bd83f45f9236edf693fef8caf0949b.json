@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 154, \"rationale\": \"The available capacity is consistently reported as 154 units across multiple sources, despite the forecast demand and nominal capacity being higher.\", \"evidence_chunk_ids\": [\"chk_agent_02_t11_qq_12_2\", \"chk_agent_05_t11_qq_12_2\", \"chk_agent_08_t11_qq_12_2\"]}", "p_toks": 364, "c_toks": 84, "dt": 1.653291940689087}

@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"The maximum forecast demand for Warehouse Alpha is 185 units, which exceeds its nominal capacity of 328 units, leading to no available capacity.\", \"evidence_chunk_ids\": [\"chk_evt_000017\", \"chk_evt_000025\", \"chk_evt_000009\", \"chk_evt_000001\"]}", "p_toks": 340, "c_toks": 74, "dt": 2.124866247177124}

@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"yes\", \"rationale\": \"Warehouse Alpha is handling 219 units, which is within its nominal capacity of 420 units.\", \"evidence_chunk_ids\": [\"chk_agent_01_t16_qq_17_1\", \"chk_agent_01_t34_qq_35_2\", \"chk_agent_04_t34_qq_35_2\", \"chk_agent_07_t34_qq_35_2\", \"chk_agent_01_t59_qq_60_1\"]}", "p_toks": 423, "c_toks": 107, "dt": 3.847320079803467}

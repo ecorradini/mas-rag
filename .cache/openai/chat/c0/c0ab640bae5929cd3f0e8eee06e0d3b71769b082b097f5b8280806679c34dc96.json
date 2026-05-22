@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"Warehouse Delta is fully occupied, resulting in 0 units of available capacity.\", \"evidence_chunk_ids\": [\"chk_agent_02_t17_qq_18_1\", \"chk_agent_05_t13_qq_14_2\", \"chk_agent_05_t17_qq_18_1\", \"chk_agent_08_t17_qq_18_1\"]}", "p_toks": 375, "c_toks": 89, "dt": 2.165879964828491}

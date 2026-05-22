@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"no\", \"rationale\": \"The evidence indicates that Warehouse Alpha has an available capacity of -55 units, which means it is overcommitted beyond its nominal capacity.\", \"evidence_chunk_ids\": [\"chk_agent_02_t16_qq_17_2\"]}", "p_toks": 399, "c_toks": 59, "dt": 2.762559175491333}

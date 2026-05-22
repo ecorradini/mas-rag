@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"The total forecast demand exceeds the nominal capacity of 328 units, leading to no available capacity.\", \"evidence_chunk_ids\": [\"chk_evt_000017\", \"chk_evt_000025\", \"chk_evt_000033\", \"chk_evt_000001\", \"chk_evt_000009\"]}", "p_toks": 340, "c_toks": 72, "dt": 2.489931106567383}

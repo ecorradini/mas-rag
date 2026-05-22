@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 1397, \"rationale\": \"The nominal capacity of warehouse Beta is 1745 units, and the current forecast demand is 348 units. Therefore, available capacity is calculated as 1745 - 348 = 1397 units.\", \"evidence_chunk_ids\": [\"chk_agent_03_t1_qq_2_0\", \"chk_pz_5_800798\"]}", "p_toks": 409, "c_toks": 84, "dt": 1.5138509273529053}

@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"no\", \"rationale\": \"Warehouse Alpha is reported to have an available capacity of -55 units, indicating it is overcommitted beyond its nominal capacity.\", \"evidence_chunk_ids\": [\"chk_agent_02_t16_qq_17_2\"]}", "p_toks": 399, "c_toks": 57, "dt": 2.6276230812072754}

@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"yes\", \"rationale\": \"Warehouse Beta is reported to be within its physical capacity with forecast demand not exceeding 455 units.\", \"evidence_chunk_ids\": [\"chk_agent_01_t29_qq_30_0\", \"chk_agent_01_t40_qq_41_2\", \"chk_evt_000071\", \"chk_evt_000104\", \"chk_evt_000276\"]}", "p_toks": 370, "c_toks": 86, "dt": 1.9555690288543701}

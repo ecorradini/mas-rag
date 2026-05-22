@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"no\", \"rationale\": \"Warehouse Delta is reported to have forecast demand exceeding its nominal capacity of 489 units.\", \"evidence_chunk_ids\": [\"chk_agent_01_t10_qq_11_0\", \"chk_agent_04_t10_qq_11_0\", \"chk_agent_01_t15_qq_16_0\", \"chk_agent_01_t24_qq_25_1\", \"chk_agent_01_t42_qq_43_0\"]}", "p_toks": 418, "c_toks": 105, "dt": 1.9153826236724854}

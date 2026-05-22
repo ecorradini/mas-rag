@@ -1,9 +1,10 @@
 PY ?= python3
 PIP ?= $(PY) -m pip
+TOKEN_CAP ?= 9500000
 SRC := src/rag_epidemic
 TESTS := tests
 
-.PHONY: install install-ablit data test lint pilot full figures rescore \
+.PHONY: install install-ablit data test lint pilot full full-soft figures rescore \
         repro ablations attack-intensity cross-domain mixed-encoder \
         ablit-qwen lock clean
 
@@ -25,15 +26,21 @@ lint:
 pilot:
 	$(PY) -m rag_epidemic.cli.reproduce_all --mode pilot
 
-# Token-capped reproducible run; rerun across days until done.
+# Command-token-capped reproducible grid; rerun until done.
 full:
-	$(PY) -m rag_epidemic.cli.reproduce_all --mode full --daily-token-cap 9500000
+	$(PY) -m rag_epidemic.cli.reproduce_all --mode full \
+	  --token-cap $(TOKEN_CAP) --pz-template-only
+
+# Same as `full`, but warns instead of enforcing the command cap.
+full-soft:
+	$(PY) -m rag_epidemic.cli.reproduce_all --mode full \
+	  --token-cap $(TOKEN_CAP) --token-cap-mode warn --pz-template-only
 
 # Minimal grid for fast reviewers: 5 seeds, N_A=6, medium, T=200.
 repro:
 	$(PY) -m rag_epidemic.cli.reproduce_all --mode full \
 	  --seeds 0 1 2 3 4 --N_A 6 --difficulties medium --T 200 \
-	  --daily-token-cap 9500000
+	  --token-cap $(TOKEN_CAP) --pz-template-only
 
 # EVP ablations (J11): 3 seeds, N_A=6, medium, T=40, 7 component toggles.
 ablations:

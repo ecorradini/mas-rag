@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"Multiple sources indicate that Warehouse Alpha is handling a demand of 271 units against a nominal capacity of 497 units, resulting in 0 available capacity.\", \"evidence_chunk_ids\": [\"chk_agent_05_t39_qq_40_1\", \"chk_agent_02_t58_qq_59_2\", \"chk_agent_05_t58_qq_59_2\"]}", "p_toks": 408, "c_toks": 90, "dt": 1.7736310958862305}

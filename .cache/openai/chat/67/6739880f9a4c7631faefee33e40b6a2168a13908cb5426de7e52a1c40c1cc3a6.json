@@ -1,0 +1,1 @@
+{"text": "{\"answer\": \"yes\", \"rationale\": \"The warehouse Delta has a nominal capacity of 432 units, and all reported forecast demands are below this capacity.\", \"evidence_chunk_ids\": [\"chk_evt_000142\", \"chk_evt_000158\", \"chk_evt_000134\", \"chk_evt_000068\", \"chk_evt_000101\"]}", "p_toks": 348, "c_toks": 75, "dt": 6.669929027557373}

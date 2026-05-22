@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 162, \"rationale\": \"The most recent demand_forecast statement for warehouse Gamma is 162 from multiple sources.\", \"evidence_chunk_ids\": [\"chk_agent_00_t64_qq_65_1\", \"chk_agent_03_t64_qq_65_1\"]}", "p_toks": 404, "c_toks": 63, "dt": 1.8321819305419922}

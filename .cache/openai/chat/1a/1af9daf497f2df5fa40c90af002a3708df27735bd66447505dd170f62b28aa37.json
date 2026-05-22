@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"The available capacity is calculated based on the forecast demand exceeding the nominal capacity, leading to zero availability.\", \"evidence_chunk_ids\": [\"chk_agent_02_t15_qq_16_2\", \"chk_agent_05_t15_qq_16_2\", \"chk_evt_000286\"]}", "p_toks": 376, "c_toks": 73, "dt": 1.7944939136505127}

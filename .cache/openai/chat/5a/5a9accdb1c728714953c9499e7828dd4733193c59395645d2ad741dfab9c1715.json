@@ -1,0 +1,1 @@
+{"text": "{\"answer\": -118, \"rationale\": \"The nominal capacity is inconsistent with the revised working capacity, leading to low confidence in the available capacity calculation.\", \"evidence_chunk_ids\": [\"chk_agent_01_t2_qq_3_1\", \"chk_pz_5_800798\", \"chk_evt_000018\"]}", "p_toks": 406, "c_toks": 70, "dt": 1.8484396934509277}

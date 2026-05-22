@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 265, \"rationale\": \"The most recent forecast demand for warehouse Alpha is 265 from multiple sources.\", \"evidence_chunk_ids\": [\"chk_agent_03_t121_qq_122_0\", \"chk_agent_00_t134_qq_135_0\", \"chk_agent_00_t136_qq_137_0\", \"chk_agent_03_t136_qq_137_0\"]}", "p_toks": 404, "c_toks": 89, "dt": 1.7321009635925293}

@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"The maximum forecast demand is 276 units, which exceeds the nominal capacity of 515 units, leaving no available capacity.\", \"evidence_chunk_ids\": [\"chk_evt_000092\", \"chk_evt_000134\"]}", "p_toks": 340, "c_toks": 56, "dt": 1.1446609497070312}

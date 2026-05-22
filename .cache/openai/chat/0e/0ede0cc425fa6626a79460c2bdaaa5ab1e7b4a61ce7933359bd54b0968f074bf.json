@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"The total forecast demand for Warehouse Alpha exceeds its nominal capacity of 497 units, leading to no available capacity.\", \"evidence_chunk_ids\": [\"chk_evt_000296\", \"chk_evt_000198\", \"chk_evt_000280\", \"chk_evt_000009\", \"chk_evt_000206\"]}", "p_toks": 340, "c_toks": 75, "dt": 2.65585994720459}

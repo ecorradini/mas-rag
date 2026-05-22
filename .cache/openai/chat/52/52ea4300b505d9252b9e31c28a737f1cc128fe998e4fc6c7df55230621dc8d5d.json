@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 211, \"rationale\": \"The nominal capacity is 421 units and the current forecast demand is 210 units, so available capacity is calculated as 421 - 210.\", \"evidence_chunk_ids\": [\"chk_evt_000009\"]}", "p_toks": 343, "c_toks": 54, "dt": 1.895824909210205}

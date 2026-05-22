@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"The available capacity is determined by the maximum capacity minus occupancy. The evidence indicates that occupancy exceeds maximum capacity, leading to 0 units available.\", \"evidence_chunk_ids\": [\"chk_agent_05_t16_qq_17_2\", \"chk_agent_02_t16_qq_17_2\"]}", "p_toks": 373, "c_toks": 74, "dt": 1.2650949954986572}

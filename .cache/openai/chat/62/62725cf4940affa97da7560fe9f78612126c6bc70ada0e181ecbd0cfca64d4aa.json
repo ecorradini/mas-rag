@@ -1,0 +1,1 @@
+{"text": "{\"answer\": 0, \"rationale\": \"The nominal capacity of Warehouse Beta is 515 units, and the forecast demand exceeds this capacity, leading to negative available capacity.\", \"evidence_chunk_ids\": [\"chk_evt_000050\", \"chk_evt_000010\"]}", "p_toks": 367, "c_toks": 57, "dt": 1.8763151168823242}
