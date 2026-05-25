@@ -15,6 +15,13 @@ from typing import Any
 import numpy as np
 
 try:
+    import sys
+    import pysqlite3
+    sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+except ImportError:
+    pass
+
+try:
     import chromadb
     from chromadb.config import Settings
 except ImportError:  # pragma: no cover
