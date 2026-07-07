@@ -1,12 +1,12 @@
 {
-  "date": "2026-05-22",
-  "tokens_used": 2779,
+  "date": "2026-07-01",
+  "tokens_used": 177489,
   "runs": [
     {
-      "run_id": "evp_s0_n3_dhard",
+      "run_id": "evp_s4_n9_dhard",
       "defense": "evp",
-      "tokens": 2779,
-      "ts": "2026-05-23T15:31:56.898483"
+      "tokens": 177489,
+      "ts": "2026-07-02T08:41:56.340694"
     }
   ]
 }

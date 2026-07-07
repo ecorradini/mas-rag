@@ -7,7 +7,7 @@ name = "rag-epidemic"
 version = "0.1.0"
 description = "Error Propagation in Multi-Agent RAG Networks: An Epidemic Model on Bipartite Graphs"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.9"
 license = { text = "MIT" }
 authors = [{ name = "Enrico Corradini" }]
 dependencies = [

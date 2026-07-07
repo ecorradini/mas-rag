@@ -4,7 +4,7 @@ Version: 0.1.0
 Summary: Error Propagation in Multi-Agent RAG Networks: An Epidemic Model on Bipartite Graphs
 Author: Enrico Corradini
 License: MIT
-Requires-Python: >=3.10
+Requires-Python: >=3.9
 Description-Content-Type: text/markdown
 Requires-Dist: openai>=1.40
 Requires-Dist: tiktoken>=0.7
